@@ -113,6 +113,12 @@
       "title": "WebRTC 실시간 P2P 통신 백엔드 시그널링 서버",
       "slug": "webrtc-실시간-p2p-통신-백엔드-시그널링-서버",
       "category": "네트워크"
+    },
+    {
+      "date": "2026-03-31",
+      "title": "Spring Boot 3 Native Test 지원 활용법",
+      "slug": "spring-boot-3-native-test-지원-활용법",
+      "category": "Java/Spring"
     }
   ]
 }

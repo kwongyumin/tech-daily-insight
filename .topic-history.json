@@ -119,6 +119,12 @@
       "title": "Spring Boot 3 Native Test 지원 활용법",
       "slug": "spring-boot-3-native-test-지원-활용법",
       "category": "Java/Spring"
+    },
+    {
+      "date": "2026-04-01",
+      "title": "데이터베이스 커넥션 풀 HikariCP 최적화 가이드",
+      "slug": "데이터베이스-커넥션-풀-hikaricp-최적화-가이드",
+      "category": "데이터베이스"
     }
   ]
 }

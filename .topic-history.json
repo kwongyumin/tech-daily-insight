@@ -125,6 +125,12 @@
       "title": "데이터베이스 커넥션 풀 HikariCP 최적화 가이드",
       "slug": "데이터베이스-커넥션-풀-hikaricp-최적화-가이드",
       "category": "데이터베이스"
+    },
+    {
+      "date": "2026-04-02",
+      "title": "AWS ECS/Fargate Spring Boot 배포 전략",
+      "slug": "aws-ecsfargate-spring-boot-배포-전략",
+      "category": "서버/인프라"
     }
   ]
 }

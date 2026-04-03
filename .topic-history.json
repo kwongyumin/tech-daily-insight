@@ -131,6 +131,12 @@
       "title": "AWS ECS/Fargate Spring Boot 배포 전략",
       "slug": "aws-ecsfargate-spring-boot-배포-전략",
       "category": "서버/인프라"
+    },
+    {
+      "date": "2026-04-03",
+      "title": "IPFS 분산 파일 시스템과 블록체인 연동",
+      "slug": "ipfs-분산-파일-시스템과-블록체인-연동",
+      "category": "블록체인"
     }
   ]
 }

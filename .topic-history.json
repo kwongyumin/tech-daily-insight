@@ -137,6 +137,12 @@
       "title": "IPFS 분산 파일 시스템과 블록체인 연동",
       "slug": "ipfs-분산-파일-시스템과-블록체인-연동",
       "category": "블록체인"
+    },
+    {
+      "date": "2026-04-04",
+      "title": "Circuit Breaker 패턴과 Resilience4j 실전 가이드",
+      "slug": "circuit-breaker-패턴과-resilience4j-실전-가이드",
+      "category": "최신 IT 기술 동향"
     }
   ]
 }

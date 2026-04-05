@@ -143,6 +143,12 @@
       "title": "Circuit Breaker 패턴과 Resilience4j 실전 가이드",
       "slug": "circuit-breaker-패턴과-resilience4j-실전-가이드",
       "category": "최신 IT 기술 동향"
+    },
+    {
+      "date": "2026-04-05",
+      "title": "블록체인 핵심 개념과 백엔드 개발자 관점에서의 이해",
+      "slug": "블록체인-핵심-개념과-백엔드-개발자-관점에서의-이해",
+      "category": "블록체인"
     }
   ]
 }

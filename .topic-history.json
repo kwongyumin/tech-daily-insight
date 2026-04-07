@@ -155,6 +155,12 @@
       "title": "Zero Downtime 배포 블루/그린 카나리 전략",
       "slug": "zero-downtime-배포-블루그린-카나리-전략",
       "category": "서버/인프라"
+    },
+    {
+      "date": "2026-04-07",
+      "title": "분산 트랜잭션 Saga 패턴과 이벤트 소싱 적용",
+      "slug": "분산-트랜잭션-saga-패턴과-이벤트-소싱-적용",
+      "category": "최신 IT 기술 동향"
     }
   ]
 }

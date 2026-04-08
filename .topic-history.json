@@ -161,6 +161,12 @@
       "title": "분산 트랜잭션 Saga 패턴과 이벤트 소싱 적용",
       "slug": "분산-트랜잭션-saga-패턴과-이벤트-소싱-적용",
       "category": "최신 IT 기술 동향"
+    },
+    {
+      "date": "2026-04-08",
+      "title": "TimescaleDB 시계열 데이터 저장과 분석",
+      "slug": "timescaledb-시계열-데이터-저장과-분석",
+      "category": "데이터베이스"
     }
   ]
 }

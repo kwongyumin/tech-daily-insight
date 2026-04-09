@@ -167,6 +167,12 @@
       "title": "TimescaleDB 시계열 데이터 저장과 분석",
       "slug": "timescaledb-시계열-데이터-저장과-분석",
       "category": "데이터베이스"
+    },
+    {
+      "date": "2026-04-09",
+      "title": "API Gateway 패턴과 서비스 라우팅 전략",
+      "slug": "api-gateway-패턴과-서비스-라우팅-전략",
+      "category": "네트워크"
     }
   ]
 }

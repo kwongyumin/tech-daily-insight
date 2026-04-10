@@ -173,6 +173,12 @@
       "title": "API Gateway 패턴과 서비스 라우팅 전략",
       "slug": "api-gateway-패턴과-서비스-라우팅-전략",
       "category": "네트워크"
+    },
+    {
+      "date": "2026-04-10",
+      "title": "Testcontainers로 Spring Boot 통합 테스트 환경 구축",
+      "slug": "testcontainers로-spring-boot-통합-테스트-환경-구축",
+      "category": "Java/Spring"
     }
   ]
 }

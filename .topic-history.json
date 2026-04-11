@@ -179,6 +179,12 @@
       "title": "Testcontainers로 Spring Boot 통합 테스트 환경 구축",
       "slug": "testcontainers로-spring-boot-통합-테스트-환경-구축",
       "category": "Java/Spring"
+    },
+    {
+      "date": "2026-04-11",
+      "title": "Terraform으로 클라우드 인프라 코드화 (IaC)",
+      "slug": "terraform으로-클라우드-인프라-코드화-iac",
+      "category": "서버/인프라"
     }
   ]
 }

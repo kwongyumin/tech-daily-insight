@@ -185,6 +185,12 @@
       "title": "Terraform으로 클라우드 인프라 코드화 (IaC)",
       "slug": "terraform으로-클라우드-인프라-코드화-iac",
       "category": "서버/인프라"
+    },
+    {
+      "date": "2026-04-12",
+      "title": "Spring WebFlux와 리액티브 프로그래밍 패턴",
+      "slug": "spring-webflux와-리액티브-프로그래밍-패턴",
+      "category": "Java/Spring"
     }
   ]
 }

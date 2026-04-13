@@ -191,6 +191,12 @@
       "title": "Spring WebFlux와 리액티브 프로그래밍 패턴",
       "slug": "spring-webflux와-리액티브-프로그래밍-패턴",
       "category": "Java/Spring"
+    },
+    {
+      "date": "2026-04-13",
+      "title": "Rust 언어가 시스템 프로그래밍에서 주목받는 이유",
+      "slug": "rust-언어가-시스템-프로그래밍에서-주목받는-이유",
+      "category": "최신 IT 기술 동향"
     }
   ]
 }

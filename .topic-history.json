@@ -203,6 +203,12 @@
       "title": "로드 밸런서 L4 vs L7 차이와 선택 기준",
       "slug": "로드-밸런서-l4-vs-l7-차이와-선택-기준",
       "category": "네트워크"
+    },
+    {
+      "date": "2026-04-15",
+      "title": "DynamoDB 설계 원칙과 Single-Table Design",
+      "slug": "dynamodb-설계-원칙과-single-table-design",
+      "category": "데이터베이스"
     }
   ]
 }

@@ -209,6 +209,12 @@
       "title": "DynamoDB 설계 원칙과 Single-Table Design",
       "slug": "dynamodb-설계-원칙과-single-table-design",
       "category": "데이터베이스"
+    },
+    {
+      "date": "2026-04-16",
+      "title": "블록체인 오라클 문제와 Chainlink 솔루션",
+      "slug": "블록체인-오라클-문제와-chainlink-솔루션",
+      "category": "블록체인"
     }
   ]
 }

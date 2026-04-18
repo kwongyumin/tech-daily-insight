@@ -221,6 +221,12 @@
       "title": "Nginx 리버스 프록시 고급 설정과 성능 튜닝",
       "slug": "nginx-리버스-프록시-고급-설정과-성능-튜닝",
       "category": "서버/인프라"
+    },
+    {
+      "date": "2026-04-18",
+      "title": "Java Records와 Sealed Classes 모던 자바 문법",
+      "slug": "java-records와-sealed-classes-모던-자바-문법",
+      "category": "Java/Spring"
     }
   ]
 }

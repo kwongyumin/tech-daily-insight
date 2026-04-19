@@ -227,6 +227,12 @@
       "title": "Java Records와 Sealed Classes 모던 자바 문법",
       "slug": "java-records와-sealed-classes-모던-자바-문법",
       "category": "Java/Spring"
+    },
+    {
+      "date": "2026-04-19",
+      "title": "네트워크 패킷 분석 Wireshark 실전 활용법",
+      "slug": "네트워크-패킷-분석-wireshark-실전-활용법",
+      "category": "네트워크"
     }
   ]
 }

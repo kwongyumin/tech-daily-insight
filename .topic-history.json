@@ -233,6 +233,12 @@
       "title": "네트워크 패킷 분석 Wireshark 실전 활용법",
       "slug": "네트워크-패킷-분석-wireshark-실전-활용법",
       "category": "네트워크"
+    },
+    {
+      "date": "2026-04-20",
+      "title": "FinOps 클라우드 비용 최적화와 엔지니어링",
+      "slug": "finops-클라우드-비용-최적화와-엔지니어링",
+      "category": "최신 IT 기술 동향"
     }
   ]
 }

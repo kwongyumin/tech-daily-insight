@@ -245,6 +245,12 @@
       "title": "Flyway로 데이터베이스 마이그레이션 자동화",
       "slug": "flyway로-데이터베이스-마이그레이션-자동화",
       "category": "데이터베이스"
+    },
+    {
+      "date": "2026-04-22",
+      "title": "Hyperledger Fabric 기업용 블록체인 네트워크 구축",
+      "slug": "hyperledger-fabric-기업용-블록체인-네트워크-구축",
+      "category": "블록체인"
     }
   ]
 }

@@ -251,6 +251,12 @@
       "title": "Hyperledger Fabric 기업용 블록체인 네트워크 구축",
       "slug": "hyperledger-fabric-기업용-블록체인-네트워크-구축",
       "category": "블록체인"
+    },
+    {
+      "date": "2026-04-23",
+      "title": "Prometheus + Grafana Spring 앱 메트릭 시각화",
+      "slug": "prometheus-grafana-spring-앱-메트릭-시각화",
+      "category": "서버/인프라"
     }
   ]
 }

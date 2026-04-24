@@ -257,6 +257,12 @@
       "title": "Prometheus + Grafana Spring 앱 메트릭 시각화",
       "slug": "prometheus-grafana-spring-앱-메트릭-시각화",
       "category": "서버/인프라"
+    },
+    {
+      "date": "2026-04-24",
+      "title": "GitOps 원칙과 ArgoCD를 통한 배포 자동화",
+      "slug": "gitops-원칙과-argocd를-통한-배포-자동화",
+      "category": "최신 IT 기술 동향"
     }
   ]
 }

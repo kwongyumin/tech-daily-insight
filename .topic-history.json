@@ -263,6 +263,12 @@
       "title": "GitOps 원칙과 ArgoCD를 통한 배포 자동화",
       "slug": "gitops-원칙과-argocd를-통한-배포-자동화",
       "category": "최신 IT 기술 동향"
+    },
+    {
+      "date": "2026-04-25",
+      "title": "Kotlin + Spring Boot 마이그레이션 실전 가이드",
+      "slug": "kotlin-spring-boot-마이그레이션-실전-가이드",
+      "category": "Java/Spring"
     }
   ]
 }

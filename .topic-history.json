@@ -275,6 +275,12 @@
       "title": "OAuth 2.0과 OpenID Connect 인증 흐름 완전 이해",
       "slug": "oauth-20과-openid-connect-인증-흐름-완전-이해",
       "category": "네트워크"
+    },
+    {
+      "date": "2026-04-27",
+      "title": "MongoDB Spring Data 반정형 데이터 처리 패턴",
+      "slug": "mongodb-spring-data-반정형-데이터-처리-패턴",
+      "category": "데이터베이스"
     }
   ]
 }

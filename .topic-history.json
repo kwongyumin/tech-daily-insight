@@ -281,6 +281,12 @@
       "title": "MongoDB Spring Data 반정형 데이터 처리 패턴",
       "slug": "mongodb-spring-data-반정형-데이터-처리-패턴",
       "category": "데이터베이스"
+    },
+    {
+      "date": "2026-04-28",
+      "title": "DeFi(탈중앙화 금융) 핵심 프로토콜과 작동 원리",
+      "slug": "defi탈중앙화-금융-핵심-프로토콜과-작동-원리",
+      "category": "블록체인"
     }
   ]
 }

@@ -293,6 +293,12 @@
       "title": "eBPF 리눅스 커널 관찰 가능성과 네트워크 보안",
       "slug": "ebpf-리눅스-커널-관찰-가능성과-네트워크-보안",
       "category": "최신 IT 기술 동향"
+    },
+    {
+      "date": "2026-04-30",
+      "title": "Redis Pub/Sub과 Stream으로 실시간 메시징 구현",
+      "slug": "redis-pubsub과-stream으로-실시간-메시징-구현",
+      "category": "데이터베이스"
     }
   ]
 }

@@ -299,6 +299,12 @@
       "title": "Redis Pub/Sub과 Stream으로 실시간 메시징 구현",
       "slug": "redis-pubsub과-stream으로-실시간-메시징-구현",
       "category": "데이터베이스"
+    },
+    {
+      "date": "2026-05-01",
+      "title": "서비스 메시 Istio와 Spring Boot 연동 가이드",
+      "slug": "서비스-메시-istio와-spring-boot-연동-가이드",
+      "category": "서버/인프라"
     }
   ]
 }

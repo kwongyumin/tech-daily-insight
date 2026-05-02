@@ -305,6 +305,12 @@
       "title": "서비스 메시 Istio와 Spring Boot 연동 가이드",
       "slug": "서비스-메시-istio와-spring-boot-연동-가이드",
       "category": "서버/인프라"
+    },
+    {
+      "date": "2026-05-02",
+      "title": "Spring Batch 5.x 대용량 데이터 처리 패턴",
+      "slug": "spring-batch-5x-대용량-데이터-처리-패턴",
+      "category": "Java/Spring"
     }
   ]
 }

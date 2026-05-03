@@ -311,6 +311,12 @@
       "title": "Spring Batch 5.x 대용량 데이터 처리 패턴",
       "slug": "spring-batch-5x-대용량-데이터-처리-패턴",
       "category": "Java/Spring"
+    },
+    {
+      "date": "2026-05-03",
+      "title": "스마트 컨트랙트 Solidity 개발 입문 가이드",
+      "slug": "스마트-컨트랙트-solidity-개발-입문-가이드",
+      "category": "블록체인"
     }
   ]
 }

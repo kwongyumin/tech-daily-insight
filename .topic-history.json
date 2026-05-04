@@ -317,6 +317,12 @@
       "title": "스마트 컨트랙트 Solidity 개발 입문 가이드",
       "slug": "스마트-컨트랙트-solidity-개발-입문-가이드",
       "category": "블록체인"
+    },
+    {
+      "date": "2026-05-04",
+      "title": "TLS/SSL 인증서 원리와 HTTPS 설정 가이드",
+      "slug": "tlsssl-인증서-원리와-https-설정-가이드",
+      "category": "네트워크"
     }
   ]
 }

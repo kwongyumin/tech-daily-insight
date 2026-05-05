@@ -323,6 +323,12 @@
       "title": "TLS/SSL 인증서 원리와 HTTPS 설정 가이드",
       "slug": "tlsssl-인증서-원리와-https-설정-가이드",
       "category": "네트워크"
+    },
+    {
+      "date": "2026-05-05",
+      "title": "mTLS 상호 인증과 서비스 간 보안 통신",
+      "slug": "mtls-상호-인증과-서비스-간-보안-통신",
+      "category": "네트워크"
     }
   ]
 }

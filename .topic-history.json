@@ -335,6 +335,12 @@
       "title": "Docker 멀티스테이지 빌드로 이미지 사이즈 최적화",
       "slug": "docker-멀티스테이지-빌드로-이미지-사이즈-최적화",
       "category": "서버/인프라"
+    },
+    {
+      "date": "2026-05-07",
+      "title": "Spring Data JPA Specification으로 동적 쿼리 작성",
+      "slug": "spring-data-jpa-specification으로-동적-쿼리-작성",
+      "category": "Java/Spring"
     }
   ]
 }

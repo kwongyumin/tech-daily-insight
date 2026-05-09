@@ -347,6 +347,12 @@
       "title": "WebAssembly(WASM) 서버사이드 실행 가능성과 미래",
       "slug": "webassemblywasm-서버사이드-실행-가능성과-미래",
       "category": "최신 IT 기술 동향"
+    },
+    {
+      "date": "2026-05-09",
+      "title": "ClickHouse 실시간 분석 쿼리 최적화 전략",
+      "slug": "clickhouse-실시간-분석-쿼리-최적화-전략",
+      "category": "데이터베이스"
     }
   ]
 }

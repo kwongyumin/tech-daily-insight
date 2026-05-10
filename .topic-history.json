@@ -353,6 +353,12 @@
       "title": "ClickHouse 실시간 분석 쿼리 최적화 전략",
       "slug": "clickhouse-실시간-분석-쿼리-최적화-전략",
       "category": "데이터베이스"
+    },
+    {
+      "date": "2026-05-10",
+      "title": "이더리움 Layer 2 확장성 솔루션 비교 분석",
+      "slug": "이더리움-layer-2-확장성-솔루션-비교-분석",
+      "category": "블록체인"
     }
   ]
 }

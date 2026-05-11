@@ -359,6 +359,12 @@
       "title": "이더리움 Layer 2 확장성 솔루션 비교 분석",
       "slug": "이더리움-layer-2-확장성-솔루션-비교-분석",
       "category": "블록체인"
+    },
+    {
+      "date": "2026-05-11",
+      "title": "Kubernetes에서 Spring Boot 운영 베스트 프랙티스",
+      "slug": "kubernetes에서-spring-boot-운영-베스트-프랙티스",
+      "category": "서버/인프라"
     }
   ]
 }

@@ -365,6 +365,12 @@
       "title": "Kubernetes에서 Spring Boot 운영 베스트 프랙티스",
       "slug": "kubernetes에서-spring-boot-운영-베스트-프랙티스",
       "category": "서버/인프라"
+    },
+    {
+      "date": "2026-05-12",
+      "title": "블록체인 지갑과 개인키 보안 관리 방법",
+      "slug": "블록체인-지갑과-개인키-보안-관리-방법",
+      "category": "블록체인"
     }
   ]
 }

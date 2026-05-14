@@ -377,6 +377,12 @@
       "title": "DDD 도메인 주도 설계 Spring Boot 실전 적용",
       "slug": "ddd-도메인-주도-설계-spring-boot-실전-적용",
       "category": "최신 IT 기술 동향"
+    },
+    {
+      "date": "2026-05-14",
+      "title": "Spring Boot Actuator와 Micrometer 모니터링 설정",
+      "slug": "spring-boot-actuator와-micrometer-모니터링-설정",
+      "category": "Java/Spring"
     }
   ]
 }

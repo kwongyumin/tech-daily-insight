@@ -383,6 +383,12 @@
       "title": "Spring Boot Actuator와 Micrometer 모니터링 설정",
       "slug": "spring-boot-actuator와-micrometer-모니터링-설정",
       "category": "Java/Spring"
+    },
+    {
+      "date": "2026-05-15",
+      "title": "Apache Cassandra 분산 NoSQL 데이터 모델링",
+      "slug": "apache-cassandra-분산-nosql-데이터-모델링",
+      "category": "데이터베이스"
     }
   ]
 }

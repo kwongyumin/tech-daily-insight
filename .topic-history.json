@@ -389,6 +389,12 @@
       "title": "Apache Cassandra 분산 NoSQL 데이터 모델링",
       "slug": "apache-cassandra-분산-nosql-데이터-모델링",
       "category": "데이터베이스"
+    },
+    {
+      "date": "2026-05-16",
+      "title": "TCP/IP 핵심 개념과 백엔드 개발자가 알아야 할 것들",
+      "slug": "tcpip-핵심-개념과-백엔드-개발자가-알아야-할-것들",
+      "category": "네트워크"
     }
   ]
 }

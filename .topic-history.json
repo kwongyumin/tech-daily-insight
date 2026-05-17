@@ -395,6 +395,12 @@
       "title": "TCP/IP 핵심 개념과 백엔드 개발자가 알아야 할 것들",
       "slug": "tcpip-핵심-개념과-백엔드-개발자가-알아야-할-것들",
       "category": "네트워크"
+    },
+    {
+      "date": "2026-05-17",
+      "title": "RabbitMQ vs Kafka 메시지 브로커 선택 가이드",
+      "slug": "rabbitmq-vs-kafka-메시지-브로커-선택-가이드",
+      "category": "최신 IT 기술 동향"
     }
   ]
 }

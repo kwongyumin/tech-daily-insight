@@ -401,6 +401,12 @@
       "title": "RabbitMQ vs Kafka 메시지 브로커 선택 가이드",
       "slug": "rabbitmq-vs-kafka-메시지-브로커-선택-가이드",
       "category": "최신 IT 기술 동향"
+    },
+    {
+      "date": "2026-05-18",
+      "title": "Spring Boot DevTools와 LiveReload 개발 생산성 극대화",
+      "slug": "spring-boot-devtools와-livereload-개발-생산성-극대화",
+      "category": "Java/Spring"
     }
   ]
 }

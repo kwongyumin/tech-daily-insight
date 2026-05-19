@@ -407,6 +407,12 @@
       "title": "Spring Boot DevTools와 LiveReload 개발 생산성 극대화",
       "slug": "spring-boot-devtools와-livereload-개발-생산성-극대화",
       "category": "Java/Spring"
+    },
+    {
+      "date": "2026-05-19",
+      "title": "WebSocket과 STOMP 실시간 통신 서버 구현",
+      "slug": "websocket과-stomp-실시간-통신-서버-구현",
+      "category": "서버/인프라"
     }
   ]
 }

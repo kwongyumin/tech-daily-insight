@@ -413,6 +413,12 @@
       "title": "WebSocket과 STOMP 실시간 통신 서버 구현",
       "slug": "websocket과-stomp-실시간-통신-서버-구현",
       "category": "서버/인프라"
+    },
+    {
+      "date": "2026-05-20",
+      "title": "CDN 동작 원리와 글로벌 서비스 최적화 전략",
+      "slug": "cdn-동작-원리와-글로벌-서비스-최적화-전략",
+      "category": "네트워크"
     }
   ]
 }

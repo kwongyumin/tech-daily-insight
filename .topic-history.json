@@ -431,6 +431,12 @@
       "title": "Redis를 활용한 분산 캐싱 전략과 패턴",
       "slug": "redis를-활용한-분산-캐싱-전략과-패턴",
       "category": "데이터베이스"
+    },
+    {
+      "date": "2026-05-24",
+      "title": "RAG(Retrieval-Augmented Generation) 시스템 구축하기",
+      "slug": "ragretrieval-augmented-generation-시스템-구축하기",
+      "category": "최신 IT 기술 동향"
     }
   ]
 }

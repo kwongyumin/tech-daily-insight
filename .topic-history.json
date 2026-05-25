@@ -437,6 +437,12 @@
       "title": "RAG(Retrieval-Augmented Generation) 시스템 구축하기",
       "slug": "ragretrieval-augmented-generation-시스템-구축하기",
       "category": "최신 IT 기술 동향"
+    },
+    {
+      "date": "2026-05-25",
+      "title": "Java 21 Virtual Threads (Project Loom) 실전 적용",
+      "slug": "java-21-virtual-threads-project-loom-실전-적용",
+      "category": "Java/Spring"
     }
   ]
 }

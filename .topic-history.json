@@ -443,6 +443,12 @@
       "title": "Java 21 Virtual Threads (Project Loom) 실전 적용",
       "slug": "java-21-virtual-threads-project-loom-실전-적용",
       "category": "Java/Spring"
+    },
+    {
+      "date": "2026-05-26",
+      "title": "PostgreSQL MVCC와 트랜잭션 격리 수준 이해",
+      "slug": "postgresql-mvcc와-트랜잭션-격리-수준-이해",
+      "category": "데이터베이스"
     }
   ]
 }

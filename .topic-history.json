@@ -449,6 +449,12 @@
       "title": "PostgreSQL MVCC와 트랜잭션 격리 수준 이해",
       "slug": "postgresql-mvcc와-트랜잭션-격리-수준-이해",
       "category": "데이터베이스"
+    },
+    {
+      "date": "2026-05-27",
+      "title": "서버리스 아키텍처 AWS Lambda와 Spring Cloud Function",
+      "slug": "서버리스-아키텍처-aws-lambda와-spring-cloud-function",
+      "category": "서버/인프라"
     }
   ]
 }

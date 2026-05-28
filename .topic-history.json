@@ -455,6 +455,12 @@
       "title": "서버리스 아키텍처 AWS Lambda와 Spring Cloud Function",
       "slug": "서버리스-아키텍처-aws-lambda와-spring-cloud-function",
       "category": "서버/인프라"
+    },
+    {
+      "date": "2026-05-28",
+      "title": "Long Polling vs SSE vs WebSocket 실시간 통신 비교",
+      "slug": "long-polling-vs-sse-vs-websocket-실시간-통신-비교",
+      "category": "네트워크"
     }
   ]
 }

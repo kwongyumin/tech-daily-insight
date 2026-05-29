@@ -461,6 +461,12 @@
       "title": "Long Polling vs SSE vs WebSocket 실시간 통신 비교",
       "slug": "long-polling-vs-sse-vs-websocket-실시간-통신-비교",
       "category": "네트워크"
+    },
+    {
+      "date": "2026-05-29",
+      "title": "Elasticsearch 풀텍스트 검색 엔진 구축하기",
+      "slug": "elasticsearch-풀텍스트-검색-엔진-구축하기",
+      "category": "데이터베이스"
     }
   ]
 }

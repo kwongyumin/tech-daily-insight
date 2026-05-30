@@ -467,6 +467,12 @@
       "title": "Elasticsearch 풀텍스트 검색 엔진 구축하기",
       "slug": "elasticsearch-풀텍스트-검색-엔진-구축하기",
       "category": "데이터베이스"
+    },
+    {
+      "date": "2026-05-30",
+      "title": "Spring Boot 3.x의 새로운 기능 완벽 가이드",
+      "slug": "spring-boot-3x의-새로운-기능-완벽-가이드",
+      "category": "Java/Spring"
     }
   ]
 }

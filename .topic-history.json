@@ -479,6 +479,12 @@
       "title": "Java의 Structured Concurrency 동시성 혁신",
       "slug": "java의-structured-concurrency-동시성-혁신",
       "category": "Java/Spring"
+    },
+    {
+      "date": "2026-06-01",
+      "title": "Apache Kafka와 스트림 처리 실시간 데이터 파이프라인",
+      "slug": "apache-kafka와-스트림-처리-실시간-데이터-파이프라인",
+      "category": "최신 IT 기술 동향"
     }
   ]
 }

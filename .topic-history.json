@@ -485,6 +485,12 @@
       "title": "Apache Kafka와 스트림 처리 실시간 데이터 파이프라인",
       "slug": "apache-kafka와-스트림-처리-실시간-데이터-파이프라인",
       "category": "최신 IT 기술 동향"
+    },
+    {
+      "date": "2026-06-02",
+      "title": "플랫폼 엔지니어링과 Internal Developer Platform 구축",
+      "slug": "플랫폼-엔지니어링과-internal-developer-platform-구축",
+      "category": "최신 IT 기술 동향"
     }
   ]
 }

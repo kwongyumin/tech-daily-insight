@@ -497,6 +497,12 @@
       "title": "마이크로서비스 vs 모놀리스 선택 기준과 트레이드오프",
       "slug": "마이크로서비스-vs-모놀리스-선택-기준과-트레이드오프",
       "category": "최신 IT 기술 동향"
+    },
+    {
+      "date": "2026-06-04",
+      "title": "OpenAPI 3.0과 Spring REST Docs 문서화 전략",
+      "slug": "openapi-30과-spring-rest-docs-문서화-전략",
+      "category": "Java/Spring"
     }
   ]
 }

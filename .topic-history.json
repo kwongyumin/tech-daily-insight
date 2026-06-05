@@ -503,6 +503,12 @@
       "title": "OpenAPI 3.0과 Spring REST Docs 문서화 전략",
       "slug": "openapi-30과-spring-rest-docs-문서화-전략",
       "category": "Java/Spring"
+    },
+    {
+      "date": "2026-06-05",
+      "title": "JWT 토큰 보안 설계와 갱신 전략 완전 가이드",
+      "slug": "jwt-토큰-보안-설계와-갱신-전략-완전-가이드",
+      "category": "최신 IT 기술 동향"
     }
   ]
 }

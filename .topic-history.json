@@ -515,6 +515,12 @@
       "title": "HTTP/2와 HTTP/3 서버 설정 및 성능 비교",
       "slug": "http2와-http3-서버-설정-및-성능-비교",
       "category": "서버/인프라"
+    },
+    {
+      "date": "2026-06-07",
+      "title": "Spring Integration 엔터프라이즈 통합 패턴 실전",
+      "slug": "spring-integration-엔터프라이즈-통합-패턴-실전",
+      "category": "Java/Spring"
     }
   ]
 }

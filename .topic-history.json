@@ -521,6 +521,12 @@
       "title": "Spring Integration 엔터프라이즈 통합 패턴 실전",
       "slug": "spring-integration-엔터프라이즈-통합-패턴-실전",
       "category": "Java/Spring"
+    },
+    {
+      "date": "2026-06-08",
+      "title": "Spring AOT와 프록시 없는 경량 컨텍스트",
+      "slug": "spring-aot와-프록시-없는-경량-컨텍스트",
+      "category": "Java/Spring"
     }
   ]
 }

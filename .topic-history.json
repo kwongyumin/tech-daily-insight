@@ -527,6 +527,12 @@
       "title": "Spring AOT와 프록시 없는 경량 컨텍스트",
       "slug": "spring-aot와-프록시-없는-경량-컨텍스트",
       "category": "Java/Spring"
+    },
+    {
+      "date": "2026-06-09",
+      "title": "Spring Cloud Gateway API 게이트웨이 구성하기",
+      "slug": "spring-cloud-gateway-api-게이트웨이-구성하기",
+      "category": "Java/Spring"
     }
   ]
 }

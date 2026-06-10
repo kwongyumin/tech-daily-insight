@@ -533,6 +533,12 @@
       "title": "Spring Cloud Gateway API 게이트웨이 구성하기",
       "slug": "spring-cloud-gateway-api-게이트웨이-구성하기",
       "category": "Java/Spring"
+    },
+    {
+      "date": "2026-06-10",
+      "title": "CI/CD 파이프라인 구축 GitHub Actions 완전 가이드",
+      "slug": "cicd-파이프라인-구축-github-actions-완전-가이드",
+      "category": "서버/인프라"
     }
   ]
 }

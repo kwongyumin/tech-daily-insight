@@ -539,6 +539,12 @@
       "title": "CI/CD 파이프라인 구축 GitHub Actions 완전 가이드",
       "slug": "cicd-파이프라인-구축-github-actions-완전-가이드",
       "category": "서버/인프라"
+    },
+    {
+      "date": "2026-06-11",
+      "title": "Java 패턴 매칭과 Switch 표현식 완벽 이해",
+      "slug": "java-패턴-매칭과-switch-표현식-완벽-이해",
+      "category": "Java/Spring"
     }
   ]
 }

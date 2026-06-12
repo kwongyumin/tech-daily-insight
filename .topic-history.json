@@ -545,6 +545,12 @@
       "title": "Java 패턴 매칭과 Switch 표현식 완벽 이해",
       "slug": "java-패턴-매칭과-switch-표현식-완벽-이해",
       "category": "Java/Spring"
+    },
+    {
+      "date": "2026-06-12",
+      "title": "Java Flight Recorder로 프로덕션 성능 분석하기",
+      "slug": "java-flight-recorder로-프로덕션-성능-분석하기",
+      "category": "서버/인프라"
     }
   ]
 }

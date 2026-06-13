@@ -551,6 +551,12 @@
       "title": "Java Flight Recorder로 프로덕션 성능 분석하기",
       "slug": "java-flight-recorder로-프로덕션-성능-분석하기",
       "category": "서버/인프라"
+    },
+    {
+      "date": "2026-06-13",
+      "title": "OpenTelemetry 분산 트레이싱 Spring Boot 적용",
+      "slug": "opentelemetry-분산-트레이싱-spring-boot-적용",
+      "category": "서버/인프라"
     }
   ]
 }

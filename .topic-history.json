@@ -557,6 +557,12 @@
       "title": "OpenTelemetry 분산 트레이싱 Spring Boot 적용",
       "slug": "opentelemetry-분산-트레이싱-spring-boot-적용",
       "category": "서버/인프라"
+    },
+    {
+      "date": "2026-06-14",
+      "title": "Feature Flag 기반 점진적 배포와 A/B 테스트",
+      "slug": "feature-flag-기반-점진적-배포와-ab-테스트",
+      "category": "최신 IT 기술 동향"
     }
   ]
 }

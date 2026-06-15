@@ -563,6 +563,12 @@
       "title": "Feature Flag 기반 점진적 배포와 A/B 테스트",
       "slug": "feature-flag-기반-점진적-배포와-ab-테스트",
       "category": "최신 IT 기술 동향"
+    },
+    {
+      "date": "2026-06-15",
+      "title": "GraphQL과 Spring Boot API 설계 가이드",
+      "slug": "graphql과-spring-boot-api-설계-가이드",
+      "category": "Java/Spring"
     }
   ]
 }

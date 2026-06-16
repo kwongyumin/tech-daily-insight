@@ -569,6 +569,12 @@
       "title": "GraphQL과 Spring Boot API 설계 가이드",
       "slug": "graphql과-spring-boot-api-설계-가이드",
       "category": "Java/Spring"
+    },
+    {
+      "date": "2026-06-16",
+      "title": "엣지 컴퓨팅과 CDN 엣지 함수 활용 전략",
+      "slug": "엣지-컴퓨팅과-cdn-엣지-함수-활용-전략",
+      "category": "최신 IT 기술 동향"
     }
   ]
 }

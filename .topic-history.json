@@ -581,6 +581,12 @@
       "title": "ShedLock으로 분산 스케줄러 중복 실행 방지",
       "slug": "shedlock으로-분산-스케줄러-중복-실행-방지",
       "category": "서버/인프라"
+    },
+    {
+      "date": "2026-06-18",
+      "title": "API 보안 OWASP Top 10 취약점과 방어 전략",
+      "slug": "api-보안-owasp-top-10-취약점과-방어-전략",
+      "category": "최신 IT 기술 동향"
     }
   ]
 }

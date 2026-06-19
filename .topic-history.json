@@ -587,6 +587,12 @@
       "title": "API 보안 OWASP Top 10 취약점과 방어 전략",
       "slug": "api-보안-owasp-top-10-취약점과-방어-전략",
       "category": "최신 IT 기술 동향"
+    },
+    {
+      "date": "2026-06-19",
+      "title": "Spring Modulith 모듈형 모놀리스 아키텍처",
+      "slug": "spring-modulith-모듈형-모놀리스-아키텍처",
+      "category": "Java/Spring"
     }
   ]
 }

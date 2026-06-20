@@ -593,6 +593,12 @@
       "title": "Spring Modulith 모듈형 모놀리스 아키텍처",
       "slug": "spring-modulith-모듈형-모놀리스-아키텍처",
       "category": "Java/Spring"
+    },
+    {
+      "date": "2026-06-20",
+      "title": "API Rate Limiting 전략과 구현 방법",
+      "slug": "api-rate-limiting-전략과-구현-방법",
+      "category": "서버/인프라"
     }
   ]
 }

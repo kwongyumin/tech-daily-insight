@@ -605,6 +605,12 @@
       "title": "Hexagonal Architecture (포트와 어댑터) 패턴 실전",
       "slug": "hexagonal-architecture-포트와-어댑터-패턴-실전",
       "category": "최신 IT 기술 동향"
+    },
+    {
+      "date": "2026-06-22",
+      "title": "SRE(사이트 신뢰성 엔지니어링) 핵심 원칙과 실천",
+      "slug": "sre사이트-신뢰성-엔지니어링-핵심-원칙과-실천",
+      "category": "최신 IT 기술 동향"
     }
   ]
 }

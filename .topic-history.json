@@ -623,6 +623,12 @@
       "title": "데이터 메시(Data Mesh) 아키텍처와 분산 데이터 관리",
       "slug": "데이터-메시data-mesh-아키텍처와-분산-데이터-관리",
       "category": "최신 IT 기술 동향"
+    },
+    {
+      "date": "2026-06-25",
+      "title": "PostgreSQL 쿼리 최적화와 인덱스 전략 완벽 가이드",
+      "slug": "postgresql-쿼리-최적화와-인덱스-전략-완벽-가이드",
+      "category": "데이터베이스"
     }
   ]
 }

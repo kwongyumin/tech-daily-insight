@@ -629,6 +629,12 @@
       "title": "PostgreSQL 쿼리 최적화와 인덱스 전략 완벽 가이드",
       "slug": "postgresql-쿼리-최적화와-인덱스-전략-완벽-가이드",
       "category": "데이터베이스"
+    },
+    {
+      "date": "2026-06-26",
+      "title": "ELK 스택으로 Spring Boot 로그 중앙화",
+      "slug": "elk-스택으로-spring-boot-로그-중앙화",
+      "category": "서버/인프라"
     }
   ]
 }

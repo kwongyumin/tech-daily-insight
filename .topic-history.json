@@ -11,6 +11,12 @@
       "title": "LLM API 통합 백엔드 서비스 설계 패턴",
       "slug": "llm-api-통합-백엔드-서비스-설계-패턴",
       "category": "최신 IT 기술 동향"
+    },
+    {
+      "date": "2026-06-29",
+      "title": "Redis Pub/Sub과 Stream으로 실시간 메시징 구현",
+      "slug": "redis-pubsub과-stream으로-실시간-메시징-구현",
+      "category": "데이터베이스"
     }
   ]
 }

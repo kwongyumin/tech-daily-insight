@@ -17,6 +17,12 @@
       "title": "Redis Pub/Sub과 Stream으로 실시간 메시징 구현",
       "slug": "redis-pubsub과-stream으로-실시간-메시징-구현",
       "category": "데이터베이스"
+    },
+    {
+      "date": "2026-06-30",
+      "title": "네트워크 패킷 분석 Wireshark 실전 활용법",
+      "slug": "네트워크-패킷-분석-wireshark-실전-활용법",
+      "category": "네트워크"
     }
   ]
 }

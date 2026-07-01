@@ -23,6 +23,12 @@
       "title": "네트워크 패킷 분석 Wireshark 실전 활용법",
       "slug": "네트워크-패킷-분석-wireshark-실전-활용법",
       "category": "네트워크"
+    },
+    {
+      "date": "2026-07-01",
+      "title": "Spring AOT와 프록시 없는 경량 컨텍스트",
+      "slug": "spring-aot와-프록시-없는-경량-컨텍스트",
+      "category": "Java/Spring"
     }
   ]
 }

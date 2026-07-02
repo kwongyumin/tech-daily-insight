@@ -29,6 +29,12 @@
       "title": "Spring AOT와 프록시 없는 경량 컨텍스트",
       "slug": "spring-aot와-프록시-없는-경량-컨텍스트",
       "category": "Java/Spring"
+    },
+    {
+      "date": "2026-07-02",
+      "title": "Nginx 리버스 프록시 고급 설정과 성능 튜닝",
+      "slug": "nginx-리버스-프록시-고급-설정과-성능-튜닝",
+      "category": "서버/인프라"
     }
   ]
 }

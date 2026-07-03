@@ -35,6 +35,12 @@
       "title": "Nginx 리버스 프록시 고급 설정과 성능 튜닝",
       "slug": "nginx-리버스-프록시-고급-설정과-성능-튜닝",
       "category": "서버/인프라"
+    },
+    {
+      "date": "2026-07-03",
+      "title": "TimescaleDB 시계열 데이터 저장과 분석",
+      "slug": "timescaledb-시계열-데이터-저장과-분석",
+      "category": "데이터베이스"
     }
   ]
 }

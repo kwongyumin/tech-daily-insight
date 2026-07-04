@@ -41,6 +41,12 @@
       "title": "TimescaleDB 시계열 데이터 저장과 분석",
       "slug": "timescaledb-시계열-데이터-저장과-분석",
       "category": "데이터베이스"
+    },
+    {
+      "date": "2026-07-04",
+      "title": "Kotlin + Spring Boot 마이그레이션 실전 가이드",
+      "slug": "kotlin-spring-boot-마이그레이션-실전-가이드",
+      "category": "Java/Spring"
     }
   ]
 }

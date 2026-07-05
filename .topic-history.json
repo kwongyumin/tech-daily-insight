@@ -47,6 +47,12 @@
       "title": "Kotlin + Spring Boot 마이그레이션 실전 가이드",
       "slug": "kotlin-spring-boot-마이그레이션-실전-가이드",
       "category": "Java/Spring"
+    },
+    {
+      "date": "2026-07-05",
+      "title": "Apache Kafka와 스트림 처리 실시간 데이터 파이프라인",
+      "slug": "apache-kafka와-스트림-처리-실시간-데이터-파이프라인",
+      "category": "최신 IT 기술 동향"
     }
   ]
 }

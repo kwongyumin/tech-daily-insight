@@ -53,6 +53,12 @@
       "title": "Apache Kafka와 스트림 처리 실시간 데이터 파이프라인",
       "slug": "apache-kafka와-스트림-처리-실시간-데이터-파이프라인",
       "category": "최신 IT 기술 동향"
+    },
+    {
+      "date": "2026-07-06",
+      "title": "ELK 스택으로 Spring Boot 로그 중앙화",
+      "slug": "elk-스택으로-spring-boot-로그-중앙화",
+      "category": "서버/인프라"
     }
   ]
 }

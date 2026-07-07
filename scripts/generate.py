@@ -35,6 +35,16 @@ TOPIC_POOL: dict[str, list[str]] = {
         "GraphQL과 Spring Boot API 설계 가이드",
         "Spring Boot 3 Native Test 지원 활용법",
         "Testcontainers로 Spring Boot 통합 테스트 환경 구축",
+        "Spring Boot 트랜잭션 전파 옵션 완전 정리",
+        "Spring Bean 생명주기와 초기화 순서 트러블슈팅",
+        "Spring Boot Configuration Properties 검증과 타입-세이프 설정",
+        "Java Garbage Collector 종류별 튜닝 전략 (G1, ZGC, Shenandoah)",
+        "Spring Retry와 회복탄력성 패턴 구현",
+        "Spring Boot 멀티모듈 프로젝트 구조 설계",
+        "Spring AOP 프록시 내부 동작과 Self-Invocation 함정",
+        "Spring Boot 커스텀 Actuator Endpoint 만들기",
+        "Java Thread Pool 튜닝과 커넥션 풀 사이징 전략",
+        "Spring Boot Bean Validation 커스텀 Validator 설계",
     ],
     "서버/인프라": [
         "Kubernetes에서 Spring Boot 운영 베스트 프랙티스",
@@ -57,6 +67,14 @@ TOPIC_POOL: dict[str, list[str]] = {
         "ELK 스택으로 Spring Boot 로그 중앙화",
         "Prometheus + Grafana Spring 앱 메트릭 시각화",
         "OpenTelemetry 분산 트레이싱 Spring Boot 적용",
+        "Kubernetes HPA/VPA 오토스케일링 전략과 실전 튜닝",
+        "컨테이너 리소스 Limit/Request 설정과 OOMKill 방지",
+        "서비스 디스커버리 패턴 Consul vs Eureka 비교",
+        "무중단 배포를 위한 Kubernetes Rolling Update 세부 튜닝",
+        "Chaos Engineering 장애 주입 테스트 실전 가이드",
+        "Envoy 데이터 플레인으로 서비스 메시 구성하기",
+        "Kubernetes Operator 패턴으로 운영 자동화하기",
+        "리눅스 cgroup과 컨테이너 격리 원리",
     ],
     "데이터베이스": [
         "PostgreSQL 쿼리 최적화와 인덱스 전략 완벽 가이드",
@@ -74,6 +92,12 @@ TOPIC_POOL: dict[str, list[str]] = {
         "CQRS 패턴 적용으로 읽기/쓰기 데이터베이스 분리",
         "DynamoDB 설계 원칙과 Single-Table Design",
         "ClickHouse 실시간 분석 쿼리 최적화 전략",
+        "PostgreSQL Vacuum과 Bloat 관리 전략",
+        "MySQL Replication Lag 원인 분석과 해결",
+        "Redis Cluster 샤딩과 Failover 전략",
+        "분산 락 Redisson vs ZooKeeper 비교",
+        "무중단 데이터베이스 스키마 마이그레이션 전략",
+        "OLTP와 OLAP 워크로드 분리 아키텍처",
     ],
     "네트워크": [
         "TCP/IP 핵심 개념과 백엔드 개발자가 알아야 할 것들",
@@ -89,6 +113,10 @@ TOPIC_POOL: dict[str, list[str]] = {
         "API Gateway 패턴과 서비스 라우팅 전략",
         "Long Polling vs SSE vs WebSocket 실시간 통신 비교",
         "QUIC 프로토콜과 HTTP/3의 등장 배경과 특징",
+        "네트워크 파티션과 CAP 정리 실전 적용",
+        "서비스 메시 사이드카 패턴과 mTLS 자동화",
+        "API Gateway Rate Limiting 알고리즘 비교 (Token Bucket vs Sliding Window)",
+        "gRPC 스트리밍 패턴과 백프레셔 처리",
     ],
     "블록체인": [
         "블록체인 핵심 개념과 백엔드 개발자 관점에서의 이해",
@@ -103,6 +131,8 @@ TOPIC_POOL: dict[str, list[str]] = {
         "영지식 증명(ZKP) 개념과 프라이버시 보호 활용",
         "블록체인 오라클 문제와 Chainlink 솔루션",
         "DAO(탈중앙화 자율 조직) 거버넌스 설계 원리",
+        "레이어2 롤업(Optimistic vs ZK) 기술 비교",
+        "블록체인 트랜잭션 가스비 최적화 전략",
     ],
     "최신 IT 기술 동향": [
         "LLM API 통합 백엔드 서비스 설계 패턴",
@@ -128,8 +158,25 @@ TOPIC_POOL: dict[str, list[str]] = {
         "JWT 토큰 보안 설계와 갱신 전략 완전 가이드",
         "API 보안 OWASP Top 10 취약점과 방어 전략",
         "Zero Trust 보안 모델과 백엔드 서비스 적용",
+        "LLM 프롬프트 캐싱과 비용 최적화 전략",
+        "벡터 데이터베이스 선택 기준과 성능 비교",
+        "AI 에이전트 오케스트레이션 패턴 설계",
+        "MLOps 파이프라인 구축과 모델 배포 전략",
+        "이벤트 드리븐 아키텍처 Outbox 패턴 구현",
+        "카나리 분석 자동화와 배포 안전장치",
     ],
 }
+
+ANGLE_POOL: list[str] = [
+    "아키텍처 설계와 트레이드오프",
+    "성능 튜닝과 벤치마킹",
+    "장애 대응과 트러블슈팅",
+    "운영 및 모니터링 전략",
+    "보안 및 규정 준수",
+    "테스트 전략과 신뢰성 검증",
+    "실전 마이그레이션 사례",
+    "비용 최적화 관점",
+]
 
 ALL_TOPICS: list[tuple[str, str]] = [
     (category, topic)
@@ -150,26 +197,54 @@ def save_history(history: dict) -> None:
     )
 
 
-def pick_topic() -> tuple[str, str]:
+def pick_topic() -> tuple[str, str, str | None, list[str]]:
+    """주제를 고른다. 처음 다루는 주제를 최우선으로 하고, 모든 주제를 한 번씩
+    다룬 뒤에는 가장 오래 전에 다룬 주제를, 아직 쓰지 않은 관점(angle)과 함께
+    재사용한다. 그래야 같은 주제라도 이전 글과 내용이 겹치지 않는다."""
     history = load_history()
-    used = {entry["title"] for entry in history["topics"]}
-    available = [(cat, t) for cat, t in ALL_TOPICS if t not in used]
+    entries = history["topics"]
 
-    if not available:
-        save_history({"topics": []})
-        available = ALL_TOPICS[:]
+    angles_by_title: dict[str, list[str]] = {}
+    last_index_by_title: dict[str, int] = {}
+    for i, entry in enumerate(entries):
+        title = entry["title"]
+        angles_by_title.setdefault(title, [])
+        if entry.get("angle"):
+            angles_by_title[title].append(entry["angle"])
+        last_index_by_title[title] = i
 
-    category_counts: dict[str, int] = {cat: 0 for cat in TOPIC_POOL}
-    for entry in history["topics"]:
-        cat = entry.get("category", "")
-        if cat in category_counts:
-            category_counts[cat] += 1
+    never_used = [(cat, t) for cat, t in ALL_TOPICS if t not in angles_by_title]
 
-    min_count = min(category_counts.values())
-    least_used = {cat for cat, cnt in category_counts.items() if cnt == min_count}
-    preferred = [(cat, t) for cat, t in available if cat in least_used]
+    if never_used:
+        category_counts: dict[str, int] = {cat: 0 for cat in TOPIC_POOL}
+        for entry in entries:
+            cat = entry.get("category", "")
+            if cat in category_counts:
+                category_counts[cat] += 1
 
-    return random.choice(preferred if preferred else available)
+        min_count = min(category_counts.values())
+        least_used = {cat for cat, cnt in category_counts.items() if cnt == min_count}
+        preferred = [(cat, t) for cat, t in never_used if cat in least_used]
+        category, topic = random.choice(preferred if preferred else never_used)
+        return category, topic, None, []
+
+    # 모든 주제를 최소 한 번씩 다룬 상태: 아직 쓰지 않은 관점이 남은 주제 중
+    # 가장 오래 전에 다룬 주제를 재사용한다 (LRU + 관점 로테이션).
+    candidates: list[tuple[int, str, str, list[str]]] = []
+    for cat, t in ALL_TOPICS:
+        remaining_angles = [a for a in ANGLE_POOL if a not in angles_by_title[t]]
+        if remaining_angles:
+            candidates.append((last_index_by_title[t], cat, t, remaining_angles))
+
+    if not candidates:
+        # 모든 주제 x 모든 관점을 다 소진한 극단적인 경우: 전체를 다시 허용한다.
+        candidates = [(last_index_by_title[t], cat, t, ANGLE_POOL) for cat, t in ALL_TOPICS]
+
+    oldest_index = min(c[0] for c in candidates)
+    oldest_group = [c for c in candidates if c[0] == oldest_index]
+    _, category, topic, remaining_angles = random.choice(oldest_group)
+    angle = random.choice(remaining_angles)
+    return category, topic, angle, angles_by_title[topic]
 
 
 def slugify(title: str) -> str:
@@ -179,15 +254,28 @@ def slugify(title: str) -> str:
     return title.strip("-")[:60]
 
 
-def generate_post(topic: str, category: str) -> str:
+def generate_post(topic: str, category: str, angle: str | None, prior_angles: list[str]) -> str:
     client = anthropic.Anthropic(api_key=os.environ["ANTHROPIC_API_KEY"])
+
+    focus_instruction = ""
+    if angle:
+        prior_note = (
+            f"이 주제는 이전 글에서 다음 관점으로 이미 다뤘습니다: {', '.join(prior_angles)}. "
+            f"해당 글과 내용·코드 예제가 겹치지 않도록 하세요.\n"
+            if prior_angles
+            else ""
+        )
+        focus_instruction = f"""
+이 주제는 과거에 다른 글에서 이미 다룬 적이 있습니다. 이번 글은 반드시 **"{angle}"** 관점에 집중해서 작성하세요.
+{prior_note}기본 설치/설정 튜토리얼을 반복하지 말고, "{angle}" 관점에서만 다룰 수 있는 심화 내용·실전 사례·구체적인 수치나 트레이드오프를 중심으로 작성하세요.
+"""
 
     prompt = f"""당신은 Java/Spring, 서버, 네트워크, 데이터베이스, 블록체인, 최신 IT 기술 동향에 정통한 시니어 백엔드 개발자입니다.
 아래 주제로 개발자 블로그 포스팅을 한국어로 작성해주세요.
 
 카테고리: {category}
 주제: {topic}
-
+{focus_instruction}
 요구사항:
 - 분량: 1200~2000 단어
 - 형식: 마크다운 (제목, 소제목, 코드 블록 포함)
@@ -213,11 +301,13 @@ def main() -> None:
         print(f"[스킵] 오늘 포스팅이 이미 존재합니다: {existing[0]}")
         return
 
-    category, topic = pick_topic()
+    category, topic, angle, prior_angles = pick_topic()
     print(f"[카테고리] {category}")
     print(f"[주제] {topic}")
+    if angle:
+        print(f"[관점] {angle} (이전 관점: {prior_angles or '없음'})")
 
-    content = generate_post(topic=topic, category=category)
+    content = generate_post(topic=topic, category=category, angle=angle, prior_angles=prior_angles)
 
     today = date.today().isoformat()
     slug = slugify(topic)
@@ -234,6 +324,7 @@ def main() -> None:
         "title": topic,
         "slug": slug,
         "category": category,
+        "angle": angle,
     })
     save_history(history)
     print(f"[완료] 주제 이력 업데이트")

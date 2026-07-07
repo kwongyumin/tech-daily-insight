@@ -59,6 +59,13 @@
       "title": "ELK 스택으로 Spring Boot 로그 중앙화",
       "slug": "elk-스택으로-spring-boot-로그-중앙화",
       "category": "서버/인프라"
+    },
+    {
+      "date": "2026-07-07",
+      "title": "HTTP 캐싱 전략 Cache-Control 완전 정복",
+      "slug": "http-캐싱-전략-cache-control-완전-정복",
+      "category": "네트워크",
+      "angle": null
     }
   ]
 }

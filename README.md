@@ -65,7 +65,7 @@ tech_daily_insight/
 | ⛓️ 블록체인 | 스마트 컨트랙트, DeFi, Web3.0, ZKP |
 | 🚀 최신 IT 동향 | LLM 통합, RAG, GitOps, eBPF, 플랫폼 엔지니어링 |
 
-총 **83개** 주제를 카테고리별 균형 있게 순환하며, 중복 없이 포스팅됩니다.
+총 **142개** 주제를 카테고리별 균형 있게 순환하며, 중복 없이 포스팅됩니다.
 
 <br/>
 
@@ -73,8 +73,8 @@ tech_daily_insight/
 
 ### 1. 주제 선택 로직
 - 6개 카테고리에서 가장 적게 사용된 카테고리 우선 선택
-- `.topic-history.json`으로 사용된 주제 추적 → 완전 중복 방지
-- 83개 주제 소진 시 자동 리셋 후 재시작
+- `.topic-history.json`으로 사용된 주제와 관점(angle)을 함께 추적 → 완전 중복 방지
+- 모든 주제를 한 번씩 다룬 뒤에는, 가장 오래전에 다룬 주제를 아직 쓰지 않은 관점과 함께 재사용 (LRU + 관점 로테이션)
 
 ### 2. Claude AI 포스팅 생성
 - 카테고리와 주제를 프롬프트에 포함하여 고품질 포스팅 생성
@@ -93,6 +93,14 @@ tech_daily_insight/
 
 ![GitHub commit activity](https://img.shields.io/github/commit-activity/m/kwongyumin/tech_daily_insight)
 ![GitHub last commit](https://img.shields.io/github/last-commit/kwongyumin/tech_daily_insight)
+
+<br/>
+
+## 📝 Changelog
+
+### 2026-07-07
+- **버그**: 주제 풀 소진 시 이력을 초기화하고 처음부터 다시 순환하는 방식이라, 2026-07-06부터 같은 주제가 내용까지 완전히 동일하게 중복 발행됨
+- **수정**: `pick_topic()`을 LRU + 관점(angle) 로테이션 방식으로 변경. 주제 소진 후에는 가장 오래전에 다룬 주제를 아직 쓰지 않은 관점(아키텍처, 성능 튜닝, 장애 대응 등 8종)으로 재작성하도록 개선하고, 주제 풀을 59개 → 142개로 확장 (`scripts/generate.py`)
 
 ---
 

@@ -5,6 +5,14 @@
 
 <br/>
 
+## 📝 Changelog
+
+### 2026-07-07
+- **버그**: 주제 풀 소진 시 이력을 초기화하고 처음부터 다시 순환하는 방식이라, 2026-07-06부터 같은 주제가 내용까지 완전히 동일하게 중복 발행됨
+- **수정**: `pick_topic()`을 LRU + 관점(angle) 로테이션 방식으로 변경. 주제 소진 후에는 가장 오래전에 다룬 주제를 아직 쓰지 않은 관점(아키텍처, 성능 튜닝, 장애 대응 등 8종)으로 재작성하도록 개선하고, 주제 풀을 59개 → 142개로 확장 (`scripts/generate.py`)
+
+<br/>
+
 ## 🤖 어떻게 동작하나요?
 
 매일 오전 9시, 아무도 키보드를 두드리지 않아도 새로운 기술 포스팅이 올라옵니다.
@@ -93,14 +101,6 @@ tech_daily_insight/
 
 ![GitHub commit activity](https://img.shields.io/github/commit-activity/m/kwongyumin/tech_daily_insight)
 ![GitHub last commit](https://img.shields.io/github/last-commit/kwongyumin/tech_daily_insight)
-
-<br/>
-
-## 📝 Changelog
-
-### 2026-07-07
-- **버그**: 주제 풀 소진 시 이력을 초기화하고 처음부터 다시 순환하는 방식이라, 2026-07-06부터 같은 주제가 내용까지 완전히 동일하게 중복 발행됨
-- **수정**: `pick_topic()`을 LRU + 관점(angle) 로테이션 방식으로 변경. 주제 소진 후에는 가장 오래전에 다룬 주제를 아직 쓰지 않은 관점(아키텍처, 성능 튜닝, 장애 대응 등 8종)으로 재작성하도록 개선하고, 주제 풀을 59개 → 142개로 확장 (`scripts/generate.py`)
 
 ---
 

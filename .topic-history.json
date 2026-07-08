@@ -836,6 +836,13 @@
       "slug": "블록체인-트랜잭션-가스비-최적화-전략",
       "category": "블록체인",
       "angle": null
+    },
+    {
+      "date": "2026-07-08",
+      "title": "API Gateway Rate Limiting 알고리즘 비교 (Token Bucket vs Sliding Window)",
+      "slug": "api-gateway-rate-limiting-알고리즘-비교-token-bucket-vs-sliding-wi",
+      "category": "네트워크",
+      "angle": null
     }
   ]
 }

@@ -843,6 +843,13 @@
       "slug": "api-gateway-rate-limiting-알고리즘-비교-token-bucket-vs-sliding-wi",
       "category": "네트워크",
       "angle": null
+    },
+    {
+      "date": "2026-07-09",
+      "title": "레이어2 롤업(Optimistic vs ZK) 기술 비교",
+      "slug": "레이어2-롤업optimistic-vs-zk-기술-비교",
+      "category": "블록체인",
+      "angle": null
     }
   ]
 }

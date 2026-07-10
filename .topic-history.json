@@ -850,6 +850,13 @@
       "slug": "레이어2-롤업optimistic-vs-zk-기술-비교",
       "category": "블록체인",
       "angle": null
+    },
+    {
+      "date": "2026-07-10",
+      "title": "서비스 메시 사이드카 패턴과 mTLS 자동화",
+      "slug": "서비스-메시-사이드카-패턴과-mtls-자동화",
+      "category": "네트워크",
+      "angle": null
     }
   ]
 }

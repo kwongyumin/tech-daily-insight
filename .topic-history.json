@@ -857,6 +857,13 @@
       "slug": "서비스-메시-사이드카-패턴과-mtls-자동화",
       "category": "네트워크",
       "angle": null
+    },
+    {
+      "date": "2026-07-11",
+      "title": "분산 락 Redisson vs ZooKeeper 비교",
+      "slug": "분산-락-redisson-vs-zookeeper-비교",
+      "category": "데이터베이스",
+      "angle": null
     }
   ]
 }

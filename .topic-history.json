@@ -864,6 +864,13 @@
       "slug": "분산-락-redisson-vs-zookeeper-비교",
       "category": "데이터베이스",
       "angle": null
+    },
+    {
+      "date": "2026-07-12",
+      "title": "Kubernetes HPA/VPA 오토스케일링 전략과 실전 튜닝",
+      "slug": "kubernetes-hpavpa-오토스케일링-전략과-실전-튜닝",
+      "category": "서버/인프라",
+      "angle": null
     }
   ]
 }

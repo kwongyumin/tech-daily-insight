@@ -878,6 +878,13 @@
       "slug": "oltp와-olap-워크로드-분리-아키텍처",
       "category": "데이터베이스",
       "angle": null
+    },
+    {
+      "date": "2026-07-14",
+      "title": "Spring Boot 트랜잭션 전파 옵션 완전 정리",
+      "slug": "spring-boot-트랜잭션-전파-옵션-완전-정리",
+      "category": "Java/Spring",
+      "angle": null
     }
   ]
 }

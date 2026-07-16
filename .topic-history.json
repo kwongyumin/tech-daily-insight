@@ -892,6 +892,13 @@
       "slug": "이벤트-드리븐-아키텍처-outbox-패턴-구현",
       "category": "최신 IT 기술 동향",
       "angle": null
+    },
+    {
+      "date": "2026-07-16",
+      "title": "Spring AOP 프록시 내부 동작과 Self-Invocation 함정",
+      "slug": "spring-aop-프록시-내부-동작과-self-invocation-함정",
+      "category": "Java/Spring",
+      "angle": null
     }
   ]
 }

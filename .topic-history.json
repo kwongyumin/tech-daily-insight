@@ -899,6 +899,13 @@
       "slug": "spring-aop-프록시-내부-동작과-self-invocation-함정",
       "category": "Java/Spring",
       "angle": null
+    },
+    {
+      "date": "2026-07-17",
+      "title": "Chaos Engineering 장애 주입 테스트 실전 가이드",
+      "slug": "chaos-engineering-장애-주입-테스트-실전-가이드",
+      "category": "서버/인프라",
+      "angle": null
     }
   ]
 }

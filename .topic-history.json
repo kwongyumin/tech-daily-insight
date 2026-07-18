@@ -906,6 +906,13 @@
       "slug": "chaos-engineering-장애-주입-테스트-실전-가이드",
       "category": "서버/인프라",
       "angle": null
+    },
+    {
+      "date": "2026-07-18",
+      "title": "Redis Cluster 샤딩과 Failover 전략",
+      "slug": "redis-cluster-샤딩과-failover-전략",
+      "category": "데이터베이스",
+      "angle": null
     }
   ]
 }

@@ -913,6 +913,13 @@
       "slug": "redis-cluster-샤딩과-failover-전략",
       "category": "데이터베이스",
       "angle": null
+    },
+    {
+      "date": "2026-07-19",
+      "title": "PostgreSQL Vacuum과 Bloat 관리 전략",
+      "slug": "postgresql-vacuum과-bloat-관리-전략",
+      "category": "데이터베이스",
+      "angle": null
     }
   ]
 }

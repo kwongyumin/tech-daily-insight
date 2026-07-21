@@ -927,6 +927,13 @@
       "slug": "벡터-데이터베이스-선택-기준과-성능-비교",
       "category": "최신 IT 기술 동향",
       "angle": null
+    },
+    {
+      "date": "2026-07-21",
+      "title": "Kubernetes Operator 패턴으로 운영 자동화하기",
+      "slug": "kubernetes-operator-패턴으로-운영-자동화하기",
+      "category": "서버/인프라",
+      "angle": null
     }
   ]
 }

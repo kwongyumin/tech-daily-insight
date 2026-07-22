@@ -934,6 +934,13 @@
       "slug": "kubernetes-operator-패턴으로-운영-자동화하기",
       "category": "서버/인프라",
       "angle": null
+    },
+    {
+      "date": "2026-07-22",
+      "title": "Spring Bean 생명주기와 초기화 순서 트러블슈팅",
+      "slug": "spring-bean-생명주기와-초기화-순서-트러블슈팅",
+      "category": "Java/Spring",
+      "angle": null
     }
   ]
 }

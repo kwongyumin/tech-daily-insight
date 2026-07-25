@@ -955,6 +955,13 @@
       "slug": "java-thread-pool-튜닝과-커넥션-풀-사이징-전략",
       "category": "Java/Spring",
       "angle": null
+    },
+    {
+      "date": "2026-07-25",
+      "title": "Spring Boot Configuration Properties 검증과 타입-세이프 설정",
+      "slug": "spring-boot-configuration-properties-검증과-타입-세이프-설정",
+      "category": "Java/Spring",
+      "angle": null
     }
   ]
 }

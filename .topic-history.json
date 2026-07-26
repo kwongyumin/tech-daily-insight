@@ -962,6 +962,13 @@
       "slug": "spring-boot-configuration-properties-검증과-타입-세이프-설정",
       "category": "Java/Spring",
       "angle": null
+    },
+    {
+      "date": "2026-07-26",
+      "title": "Spring Boot 멀티모듈 프로젝트 구조 설계",
+      "slug": "spring-boot-멀티모듈-프로젝트-구조-설계",
+      "category": "Java/Spring",
+      "angle": null
     }
   ]
 }

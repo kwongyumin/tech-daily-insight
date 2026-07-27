@@ -969,6 +969,13 @@
       "slug": "spring-boot-멀티모듈-프로젝트-구조-설계",
       "category": "Java/Spring",
       "angle": null
+    },
+    {
+      "date": "2026-07-27",
+      "title": "Spring Boot Bean Validation 커스텀 Validator 설계",
+      "slug": "spring-boot-bean-validation-커스텀-validator-설계",
+      "category": "Java/Spring",
+      "angle": null
     }
   ]
 }

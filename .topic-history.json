@@ -976,6 +976,13 @@
       "slug": "spring-boot-bean-validation-커스텀-validator-설계",
       "category": "Java/Spring",
       "angle": null
+    },
+    {
+      "date": "2026-07-28",
+      "title": "Spring Retry와 회복탄력성 패턴 구현",
+      "slug": "spring-retry와-회복탄력성-패턴-구현",
+      "category": "Java/Spring",
+      "angle": null
     }
   ]
 }

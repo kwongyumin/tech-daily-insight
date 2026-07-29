@@ -983,6 +983,13 @@
       "slug": "spring-retry와-회복탄력성-패턴-구현",
       "category": "Java/Spring",
       "angle": null
+    },
+    {
+      "date": "2026-07-29",
+      "title": "Spring Boot 커스텀 Actuator Endpoint 만들기",
+      "slug": "spring-boot-커스텀-actuator-endpoint-만들기",
+      "category": "Java/Spring",
+      "angle": null
     }
   ]
 }

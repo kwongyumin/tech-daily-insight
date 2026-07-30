@@ -990,6 +990,13 @@
       "slug": "spring-boot-커스텀-actuator-endpoint-만들기",
       "category": "Java/Spring",
       "angle": null
+    },
+    {
+      "date": "2026-07-30",
+      "title": "컨테이너 리소스 Limit/Request 설정과 OOMKill 방지",
+      "slug": "컨테이너-리소스-limitrequest-설정과-oomkill-방지",
+      "category": "서버/인프라",
+      "angle": null
     }
   ]
 }

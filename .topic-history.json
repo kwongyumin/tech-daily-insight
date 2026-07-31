@@ -997,6 +997,13 @@
       "slug": "컨테이너-리소스-limitrequest-설정과-oomkill-방지",
       "category": "서버/인프라",
       "angle": null
+    },
+    {
+      "date": "2026-07-31",
+      "title": "AI 에이전트 오케스트레이션 패턴 설계",
+      "slug": "ai-에이전트-오케스트레이션-패턴-설계",
+      "category": "최신 IT 기술 동향",
+      "angle": null
     }
   ]
 }

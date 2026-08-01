@@ -1004,6 +1004,13 @@
       "slug": "ai-에이전트-오케스트레이션-패턴-설계",
       "category": "최신 IT 기술 동향",
       "angle": null
+    },
+    {
+      "date": "2026-08-01",
+      "title": "리눅스 cgroup과 컨테이너 격리 원리",
+      "slug": "리눅스-cgroup과-컨테이너-격리-원리",
+      "category": "서버/인프라",
+      "angle": null
     }
   ]
 }

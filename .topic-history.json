@@ -1011,6 +1011,13 @@
       "slug": "리눅스-cgroup과-컨테이너-격리-원리",
       "category": "서버/인프라",
       "angle": null
+    },
+    {
+      "date": "2026-08-02",
+      "title": "네트워크 파티션과 CAP 정리 실전 적용",
+      "slug": "네트워크-파티션과-cap-정리-실전-적용",
+      "category": "네트워크",
+      "angle": null
     }
   ]
 }

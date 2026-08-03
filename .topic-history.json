@@ -1018,6 +1018,13 @@
       "slug": "네트워크-파티션과-cap-정리-실전-적용",
       "category": "네트워크",
       "angle": null
+    },
+    {
+      "date": "2026-08-03",
+      "title": "무중단 배포를 위한 Kubernetes Rolling Update 세부 튜닝",
+      "slug": "무중단-배포를-위한-kubernetes-rolling-update-세부-튜닝",
+      "category": "서버/인프라",
+      "angle": null
     }
   ]
 }

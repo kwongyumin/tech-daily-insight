@@ -1032,6 +1032,13 @@
       "slug": "mlops-파이프라인-구축과-모델-배포-전략",
       "category": "최신 IT 기술 동향",
       "angle": null
+    },
+    {
+      "date": "2026-08-05",
+      "title": "Java Garbage Collector 종류별 튜닝 전략 (G1, ZGC, Shenandoah)",
+      "slug": "java-garbage-collector-종류별-튜닝-전략-g1-zgc-shenandoah",
+      "category": "Java/Spring",
+      "angle": null
     }
   ]
 }

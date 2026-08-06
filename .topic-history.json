@@ -1039,6 +1039,13 @@
       "slug": "java-garbage-collector-종류별-튜닝-전략-g1-zgc-shenandoah",
       "category": "Java/Spring",
       "angle": null
+    },
+    {
+      "date": "2026-08-06",
+      "title": "서비스 디스커버리 패턴 Consul vs Eureka 비교",
+      "slug": "서비스-디스커버리-패턴-consul-vs-eureka-비교",
+      "category": "서버/인프라",
+      "angle": null
     }
   ]
 }

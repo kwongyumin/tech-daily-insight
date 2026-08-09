@@ -1060,6 +1060,13 @@
       "slug": "무중단-데이터베이스-스키마-마이그레이션-전략",
       "category": "데이터베이스",
       "angle": null
+    },
+    {
+      "date": "2026-08-09",
+      "title": "MySQL Replication Lag 원인 분석과 해결",
+      "slug": "mysql-replication-lag-원인-분석과-해결",
+      "category": "데이터베이스",
+      "angle": null
     }
   ]
 }

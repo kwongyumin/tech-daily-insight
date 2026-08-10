@@ -1067,6 +1067,13 @@
       "slug": "mysql-replication-lag-원인-분석과-해결",
       "category": "데이터베이스",
       "angle": null
+    },
+    {
+      "date": "2026-08-10",
+      "title": "gRPC 스트리밍 패턴과 백프레셔 처리",
+      "slug": "grpc-스트리밍-패턴과-백프레셔-처리",
+      "category": "네트워크",
+      "angle": null
     }
   ]
 }

@@ -1074,6 +1074,13 @@
       "slug": "grpc-스트리밍-패턴과-백프레셔-처리",
       "category": "네트워크",
       "angle": null
+    },
+    {
+      "date": "2026-08-11",
+      "title": "Envoy 데이터 플레인으로 서비스 메시 구성하기",
+      "slug": "envoy-데이터-플레인으로-서비스-메시-구성하기",
+      "category": "서버/인프라",
+      "angle": null
     }
   ]
 }

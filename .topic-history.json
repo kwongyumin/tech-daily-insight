@@ -1081,6 +1081,13 @@
       "slug": "envoy-데이터-플레인으로-서비스-메시-구성하기",
       "category": "서버/인프라",
       "angle": null
+    },
+    {
+      "date": "2026-08-12",
+      "title": "Spring Security 6.x OAuth2/OIDC 설정 가이드",
+      "slug": "spring-security-6x-oauth2oidc-설정-가이드",
+      "category": "Java/Spring",
+      "angle": "보안 및 규정 준수"
     }
   ]
 }

@@ -1088,6 +1088,13 @@
       "slug": "spring-security-6x-oauth2oidc-설정-가이드",
       "category": "Java/Spring",
       "angle": "보안 및 규정 준수"
+    },
+    {
+      "date": "2026-08-13",
+      "title": "MySQL 파티셔닝과 샤딩 대규모 데이터 관리",
+      "slug": "mysql-파티셔닝과-샤딩-대규모-데이터-관리",
+      "category": "데이터베이스",
+      "angle": "테스트 전략과 신뢰성 검증"
     }
   ]
 }

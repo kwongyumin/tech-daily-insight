@@ -1116,6 +1116,13 @@
       "slug": "quic-프로토콜과-http3의-등장-배경과-특징",
       "category": "네트워크",
       "angle": "운영 및 모니터링 전략"
+    },
+    {
+      "date": "2026-08-17",
+      "title": "Helm Chart로 Kubernetes 애플리케이션 패키징",
+      "slug": "helm-chart로-kubernetes-애플리케이션-패키징",
+      "category": "서버/인프라",
+      "angle": "장애 대응과 트러블슈팅"
     }
   ]
 }

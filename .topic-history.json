@@ -1130,6 +1130,13 @@
       "slug": "ai-시대-개발자의-역할-변화와-생산성-향상-전략",
       "category": "최신 IT 기술 동향",
       "angle": "테스트 전략과 신뢰성 검증"
+    },
+    {
+      "date": "2026-08-19",
+      "title": "HTTP 캐싱 전략 Cache-Control 완전 정복",
+      "slug": "http-캐싱-전략-cache-control-완전-정복",
+      "category": "네트워크",
+      "angle": "테스트 전략과 신뢰성 검증"
     }
   ]
 }

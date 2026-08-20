@@ -1137,6 +1137,13 @@
       "slug": "http-캐싱-전략-cache-control-완전-정복",
       "category": "네트워크",
       "angle": "테스트 전략과 신뢰성 검증"
+    },
+    {
+      "date": "2026-08-20",
+      "title": "GraalVM Native Image로 Spring Boot 앱 경량화하기",
+      "slug": "graalvm-native-image로-spring-boot-앱-경량화하기",
+      "category": "Java/Spring",
+      "angle": "테스트 전략과 신뢰성 검증"
     }
   ]
 }

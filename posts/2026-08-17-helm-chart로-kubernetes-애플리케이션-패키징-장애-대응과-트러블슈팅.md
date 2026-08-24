@@ -1,4 +1,4 @@
-# Helm Chart로 Kubernetes 애플리케이션 패키징
+# Helm Chart로 Kubernetes 애플리케이션 패키징 — 장애 대응과 트러블슈팅
 
 ## 장애 대응과 트러블슈팅: Helm이 망가졌을 때 살아남기
 

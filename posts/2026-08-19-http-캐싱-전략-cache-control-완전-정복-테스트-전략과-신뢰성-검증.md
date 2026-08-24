@@ -1,4 +1,4 @@
-# HTTP 캐싱 전략 Cache-Control 완전 정복
+# HTTP 캐싱 전략 Cache-Control 완전 정복 — 테스트 전략과 신뢰성 검증
 
 ## 테스트 전략과 신뢰성 검증 관점에서 다시 보는 Cache-Control
 

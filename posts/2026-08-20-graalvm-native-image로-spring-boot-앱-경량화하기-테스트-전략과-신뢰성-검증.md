@@ -1,4 +1,4 @@
-# GraalVM Native Image로 Spring Boot 앱 경량화하기
+# GraalVM Native Image로 Spring Boot 앱 경량화하기 — 테스트 전략과 신뢰성 검증
 
 ## 테스트 전략과 신뢰성 검증: Native Image 배포를 믿고 떠날 수 있는가?
 

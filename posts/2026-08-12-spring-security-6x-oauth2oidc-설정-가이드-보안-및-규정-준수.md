@@ -1,4 +1,4 @@
-# Spring Security 6.x OAuth2/OIDC 설정 가이드
+# Spring Security 6.x OAuth2/OIDC 설정 가이드 — 보안 및 규정 준수
 
 ## 보안 및 규정 준수 관점에서의 심화 구성 전략
 

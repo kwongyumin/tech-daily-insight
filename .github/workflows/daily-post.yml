@@ -28,7 +28,10 @@ jobs:
           python-version: '3.11'
 
       - name: Install dependencies
-        run: pip install anthropic
+        run: pip install anthropic pytest
+
+      - name: Verify topic selection logic
+        run: pytest tests/ -q
 
       - name: Generate daily post
         env:

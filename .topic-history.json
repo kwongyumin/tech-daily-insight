@@ -774,61 +774,71 @@
       "date": "2026-06-27",
       "title": "블록체인 핵심 개념과 백엔드 개발자 관점에서의 이해",
       "slug": "블록체인-핵심-개념과-백엔드-개발자-관점에서의-이해",
-      "category": "블록체인"
+      "category": "블록체인",
+      "angle": null
     },
     {
       "date": "2026-06-28",
       "title": "LLM API 통합 백엔드 서비스 설계 패턴",
       "slug": "llm-api-통합-백엔드-서비스-설계-패턴",
-      "category": "최신 IT 기술 동향"
+      "category": "최신 IT 기술 동향",
+      "angle": null
     },
     {
       "date": "2026-06-29",
       "title": "Redis Pub/Sub과 Stream으로 실시간 메시징 구현",
       "slug": "redis-pubsub과-stream으로-실시간-메시징-구현",
-      "category": "데이터베이스"
+      "category": "데이터베이스",
+      "angle": null
     },
     {
       "date": "2026-06-30",
       "title": "네트워크 패킷 분석 Wireshark 실전 활용법",
       "slug": "네트워크-패킷-분석-wireshark-실전-활용법",
-      "category": "네트워크"
+      "category": "네트워크",
+      "angle": null
     },
     {
       "date": "2026-07-01",
       "title": "Spring AOT와 프록시 없는 경량 컨텍스트",
       "slug": "spring-aot와-프록시-없는-경량-컨텍스트",
-      "category": "Java/Spring"
+      "category": "Java/Spring",
+      "angle": null
     },
     {
       "date": "2026-07-02",
       "title": "Nginx 리버스 프록시 고급 설정과 성능 튜닝",
       "slug": "nginx-리버스-프록시-고급-설정과-성능-튜닝",
-      "category": "서버/인프라"
+      "category": "서버/인프라",
+      "angle": null
     },
     {
       "date": "2026-07-03",
       "title": "TimescaleDB 시계열 데이터 저장과 분석",
       "slug": "timescaledb-시계열-데이터-저장과-분석",
-      "category": "데이터베이스"
+      "category": "데이터베이스",
+      "angle": null
     },
     {
       "date": "2026-07-04",
       "title": "Kotlin + Spring Boot 마이그레이션 실전 가이드",
       "slug": "kotlin-spring-boot-마이그레이션-실전-가이드",
-      "category": "Java/Spring"
+      "category": "Java/Spring",
+      "angle": null
     },
     {
       "date": "2026-07-05",
       "title": "Apache Kafka와 스트림 처리 실시간 데이터 파이프라인",
       "slug": "apache-kafka와-스트림-처리-실시간-데이터-파이프라인",
-      "category": "최신 IT 기술 동향"
+      "category": "최신 IT 기술 동향",
+      "angle": null
     },
     {
       "date": "2026-07-06",
       "title": "ELK 스택으로 Spring Boot 로그 중앙화",
       "slug": "elk-스택으로-spring-boot-로그-중앙화",
-      "category": "서버/인프라"
+      "category": "서버/인프라",
+      "angle": null
     },
     {
       "date": "2026-07-07",
@@ -1085,84 +1095,84 @@
     {
       "date": "2026-08-12",
       "title": "Spring Security 6.x OAuth2/OIDC 설정 가이드",
-      "slug": "spring-security-6x-oauth2oidc-설정-가이드",
+      "slug": "spring-security-6x-oauth2oidc-설정-가이드-보안-및-규정-준수",
       "category": "Java/Spring",
       "angle": "보안 및 규정 준수"
     },
     {
       "date": "2026-08-13",
       "title": "MySQL 파티셔닝과 샤딩 대규모 데이터 관리",
-      "slug": "mysql-파티셔닝과-샤딩-대규모-데이터-관리",
+      "slug": "mysql-파티셔닝과-샤딩-대규모-데이터-관리-테스트-전략과-신뢰성-검증",
       "category": "데이터베이스",
       "angle": "테스트 전략과 신뢰성 검증"
     },
     {
       "date": "2026-08-14",
       "title": "Linux 서버 성능 분석과 병목 지점 찾기",
-      "slug": "linux-서버-성능-분석과-병목-지점-찾기",
+      "slug": "linux-서버-성능-분석과-병목-지점-찾기-성능-튜닝과-벤치마킹",
       "category": "서버/인프라",
       "angle": "성능 튜닝과 벤치마킹"
     },
     {
       "date": "2026-08-15",
       "title": "NFT 기술 원리와 ERC-721 스마트 컨트랙트 구현",
-      "slug": "nft-기술-원리와-erc-721-스마트-컨트랙트-구현",
+      "slug": "nft-기술-원리와-erc-721-스마트-컨트랙트-구현-장애-대응과-트러블슈팅",
       "category": "블록체인",
       "angle": "장애 대응과 트러블슈팅"
     },
     {
       "date": "2026-08-16",
       "title": "QUIC 프로토콜과 HTTP/3의 등장 배경과 특징",
-      "slug": "quic-프로토콜과-http3의-등장-배경과-특징",
+      "slug": "quic-프로토콜과-http3의-등장-배경과-특징-운영-및-모니터링-전략",
       "category": "네트워크",
       "angle": "운영 및 모니터링 전략"
     },
     {
       "date": "2026-08-17",
       "title": "Helm Chart로 Kubernetes 애플리케이션 패키징",
-      "slug": "helm-chart로-kubernetes-애플리케이션-패키징",
+      "slug": "helm-chart로-kubernetes-애플리케이션-패키징-장애-대응과-트러블슈팅",
       "category": "서버/인프라",
       "angle": "장애 대응과 트러블슈팅"
     },
     {
       "date": "2026-08-18",
       "title": "AI 시대 개발자의 역할 변화와 생산성 향상 전략",
-      "slug": "ai-시대-개발자의-역할-변화와-생산성-향상-전략",
+      "slug": "ai-시대-개발자의-역할-변화와-생산성-향상-전략-테스트-전략과-신뢰성-검증",
       "category": "최신 IT 기술 동향",
       "angle": "테스트 전략과 신뢰성 검증"
     },
     {
       "date": "2026-08-19",
       "title": "HTTP 캐싱 전략 Cache-Control 완전 정복",
-      "slug": "http-캐싱-전략-cache-control-완전-정복",
+      "slug": "http-캐싱-전략-cache-control-완전-정복-테스트-전략과-신뢰성-검증",
       "category": "네트워크",
       "angle": "테스트 전략과 신뢰성 검증"
     },
     {
       "date": "2026-08-20",
       "title": "GraalVM Native Image로 Spring Boot 앱 경량화하기",
-      "slug": "graalvm-native-image로-spring-boot-앱-경량화하기",
+      "slug": "graalvm-native-image로-spring-boot-앱-경량화하기-테스트-전략과-신뢰성-검증",
       "category": "Java/Spring",
       "angle": "테스트 전략과 신뢰성 검증"
     },
     {
       "date": "2026-08-21",
       "title": "Web3.0과 탈중앙화 애플리케이션(dApp) 아키텍처",
-      "slug": "web30과-탈중앙화-애플리케이션dapp-아키텍처",
+      "slug": "web30과-탈중앙화-애플리케이션dapp-아키텍처-성능-튜닝과-벤치마킹",
       "category": "블록체인",
       "angle": "성능 튜닝과 벤치마킹"
     },
     {
       "date": "2026-08-22",
       "title": "CQRS 패턴 적용으로 읽기/쓰기 데이터베이스 분리",
-      "slug": "cqrs-패턴-적용으로-읽기쓰기-데이터베이스-분리",
+      "slug": "cqrs-패턴-적용으로-읽기쓰기-데이터베이스-분리-장애-대응과-트러블슈팅",
       "category": "데이터베이스",
       "angle": "장애 대응과 트러블슈팅"
     },
     {
       "date": "2026-08-23",
       "title": "Zero Trust 보안 모델과 백엔드 서비스 적용",
-      "slug": "zero-trust-보안-모델과-백엔드-서비스-적용",
+      "slug": "zero-trust-보안-모델과-백엔드-서비스-적용-성능-튜닝과-벤치마킹",
       "category": "최신 IT 기술 동향",
       "angle": "성능 튜닝과 벤치마킹"
     },

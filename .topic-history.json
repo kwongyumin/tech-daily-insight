@@ -1196,6 +1196,13 @@
       "slug": "스테이블코인-발행-구조와-담보-메커니즘",
       "category": "블록체인",
       "angle": null
+    },
+    {
+      "date": "2026-08-27",
+      "title": "합의 알고리즘 PoW와 PoS 비교 분석",
+      "slug": "합의-알고리즘-pow와-pos-비교-분석",
+      "category": "블록체인",
+      "angle": null
     }
   ]
 }

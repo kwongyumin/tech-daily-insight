@@ -1203,6 +1203,13 @@
       "slug": "합의-알고리즘-pow와-pos-비교-분석",
       "category": "블록체인",
       "angle": null
+    },
+    {
+      "date": "2026-08-28",
+      "title": "온체인 데이터 인덱싱과 The Graph 활용",
+      "slug": "온체인-데이터-인덱싱과-the-graph-활용",
+      "category": "블록체인",
+      "angle": null
     }
   ]
 }

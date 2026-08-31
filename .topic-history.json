@@ -1224,6 +1224,13 @@
       "slug": "이더리움-계정-추상화-erc-4337-이해하기",
       "category": "블록체인",
       "angle": null
+    },
+    {
+      "date": "2026-08-31",
+      "title": "토큰 표준 ERC-20과 ERC-1155 비교",
+      "slug": "토큰-표준-erc-20과-erc-1155-비교",
+      "category": "블록체인",
+      "angle": null
     }
   ]
 }

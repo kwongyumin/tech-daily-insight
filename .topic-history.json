@@ -1231,6 +1231,13 @@
       "slug": "토큰-표준-erc-20과-erc-1155-비교",
       "category": "블록체인",
       "angle": null
+    },
+    {
+      "date": "2026-09-01",
+      "title": "Keep-Alive와 커넥션 재사용 최적화",
+      "slug": "keep-alive와-커넥션-재사용-최적화",
+      "category": "네트워크",
+      "angle": null
     }
   ]
 }

@@ -1238,6 +1238,13 @@
       "slug": "keep-alive와-커넥션-재사용-최적화",
       "category": "네트워크",
       "angle": null
+    },
+    {
+      "date": "2026-09-02",
+      "title": "네트워크 지연 측정과 RTT 최적화 기법",
+      "slug": "네트워크-지연-측정과-rtt-최적화-기법",
+      "category": "네트워크",
+      "angle": null
     }
   ]
 }

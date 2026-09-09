@@ -1287,6 +1287,13 @@
       "slug": "코드-리뷰-문화와-리뷰-자동화-도구",
       "category": "최신 IT 기술 동향",
       "angle": null
+    },
+    {
+      "date": "2026-09-09",
+      "title": "Ansible로 서버 구성 관리 자동화",
+      "slug": "ansible로-서버-구성-관리-자동화",
+      "category": "서버/인프라",
+      "angle": null
     }
   ]
 }

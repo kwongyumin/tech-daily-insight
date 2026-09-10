@@ -1294,6 +1294,13 @@
       "slug": "ansible로-서버-구성-관리-자동화",
       "category": "서버/인프라",
       "angle": null
+    },
+    {
+      "date": "2026-09-10",
+      "title": "MapStruct로 DTO 매핑 자동화하기",
+      "slug": "mapstruct로-dto-매핑-자동화하기",
+      "category": "Java/Spring",
+      "angle": null
     }
   ]
 }

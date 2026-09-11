@@ -1301,6 +1301,13 @@
       "slug": "mapstruct로-dto-매핑-자동화하기",
       "category": "Java/Spring",
       "angle": null
+    },
+    {
+      "date": "2026-09-11",
+      "title": "데이터베이스 백업과 시점 복구(PITR) 설계",
+      "slug": "데이터베이스-백업과-시점-복구pitr-설계",
+      "category": "데이터베이스",
+      "angle": null
     }
   ]
 }

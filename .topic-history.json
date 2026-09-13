@@ -1315,6 +1315,13 @@
       "slug": "spring-event와-applicationeventpublisher-비동기-처리",
       "category": "Java/Spring",
       "angle": null
+    },
+    {
+      "date": "2026-09-13",
+      "title": "Kubernetes NetworkPolicy로 파드 간 트래픽 제어",
+      "slug": "kubernetes-networkpolicy로-파드-간-트래픽-제어",
+      "category": "서버/인프라",
+      "angle": null
     }
   ]
 }

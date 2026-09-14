@@ -1322,6 +1322,13 @@
       "slug": "kubernetes-networkpolicy로-파드-간-트래픽-제어",
       "category": "서버/인프라",
       "angle": null
+    },
+    {
+      "date": "2026-09-14",
+      "title": "S3 스토리지 클래스와 라이프사이클 비용 설계",
+      "slug": "s3-스토리지-클래스와-라이프사이클-비용-설계",
+      "category": "서버/인프라",
+      "angle": null
     }
   ]
 }

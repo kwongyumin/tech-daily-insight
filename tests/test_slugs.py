@@ -6,7 +6,7 @@
 import pytest
 
 from slugs import build_slug, build_slug_index, build_title, slugify
-from topics import ALL_TOPICS, ANGLE_POOL
+from topics import ANGLE_POOL, KNOWN_TOPICS
 
 
 def test_slugify_한글과_영문_혼용_제목을_처리한다():
@@ -34,9 +34,13 @@ def test_서로_다른_angle은_서로_다른_슬러그를_만든다():
 
 
 def test_모든_주제x관점_조합의_슬러그가_고유하다():
-    """긴 주제명이 60자에서 잘려도 관점 부분은 보존되어야 충돌하지 않는다."""
-    index = build_slug_index(ALL_TOPICS, ANGLE_POOL)
-    expected = len(ALL_TOPICS) * (len(ANGLE_POOL) + 1)
+    """긴 주제명이 60자에서 잘려도 관점 부분은 보존되어야 충돌하지 않는다.
+
+    레거시 주제까지 포함해 검사한다. 새 주제가 예전 글의 슬러그와 겹치면 예전 글을
+    새 주제로 잘못 식별한다.
+    """
+    index = build_slug_index(KNOWN_TOPICS, ANGLE_POOL)
+    expected = len(KNOWN_TOPICS) * (len(ANGLE_POOL) + 1)
     assert len(index) == expected
 
 
@@ -53,5 +57,5 @@ def test_angle이_있으면_제목에_관점이_드러난다():
 
 @pytest.mark.parametrize("angle", [None, *ANGLE_POOL])
 def test_슬러그는_파일명으로_안전한_길이를_넘지_않는다(angle):
-    for _, topic in ALL_TOPICS:
+    for _, topic in KNOWN_TOPICS:
         assert len(build_slug(topic, angle).encode("utf-8")) < 200

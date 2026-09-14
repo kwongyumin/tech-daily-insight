@@ -8,7 +8,7 @@ import random
 import pytest
 
 from history import Entry
-from picker import Pick, pick_topic
+from picker import MAX_CATEGORY_RUN, Pick, pick_topic, select_topic
 from slugs import build_slug
 from topics import ALL_TOPICS, ANGLE_POOL
 
@@ -117,3 +117,130 @@ def test_관점도_고르게_분배된다():
     entries = _simulate(total, FAKE_TOPICS, FAKE_ANGLES)
     counts = [sum(1 for e in entries if e.angle == a) for a in FAKE_ANGLES]
     assert max(counts) - min(counts) <= 1
+
+
+# --- 2026-09-14 주제 풀 개편: 레거시 카테고리와 카테고리 별칭 ---
+
+ALIAS_TOPICS = [("아키텍처", f"아키{i}") for i in range(5)] + [("네트워크", f"넷{i}") for i in range(5)]
+
+
+def _legacy_entry(category: str, title: str, day: int) -> Entry:
+    return Entry(f"2026-02-{day:02d}", title, build_slug(title), category, None)
+
+
+ALIAS_HISTORY = [_legacy_entry("옛 동향", f"옛주제{i}", i + 1) for i in range(3)] + [
+    _legacy_entry("네트워크", "넷0", 4)
+]
+
+
+@pytest.mark.parametrize("seed", range(5))
+def test_별칭_카테고리의_예전_글은_새_카테고리_발행_수로_센다(seed):
+    pick = pick_topic(
+        ALIAS_HISTORY, ALIAS_TOPICS, FAKE_ANGLES, random.Random(seed),
+        category_aliases={"옛 동향": "아키텍처"},
+    )
+    assert pick.category == "네트워크"
+
+
+@pytest.mark.parametrize("seed", range(5))
+def test_별칭이_없으면_발행_수_0인_새_카테고리를_우선한다(seed):
+    """별칭이 필요한 이유: 없으면 새 카테고리가 따라잡을 때까지 연달아 선택된다."""
+    pick = pick_topic(ALIAS_HISTORY, ALIAS_TOPICS, FAKE_ANGLES, random.Random(seed))
+    assert pick.category == "아키텍처"
+
+
+def test_레거시_글이_이력에_있어도_선택_대상_밖의_주제는_고르지_않는다():
+    legacy = [_legacy_entry("블록체인", f"체인{i}", i + 1) for i in range(5)]
+    entries = [*legacy, *_simulate(len(FAKE_TOPICS) + 2, FAKE_TOPICS, FAKE_ANGLES)]
+    pick = pick_topic(entries, FAKE_TOPICS, FAKE_ANGLES, random.Random(9))
+    assert (pick.category, pick.topic) in FAKE_TOPICS
+
+
+# --- 우선 주제(토스 기반)와 카테고리 연속 제한 ---
+
+PRIORITY = [("네트워크", "주제5"), ("데이터베이스", "디비3")]
+
+
+def _day_entry(category: str, title: str, day: int, angle: str | None = None) -> Entry:
+    return Entry(f"2026-03-{day:02d}", title, build_slug(title, angle), category, angle)
+
+
+def _longest_category_run(entries: list[Entry]) -> int:
+    longest = run = 0
+    previous = None
+    for entry in entries:
+        run = run + 1 if entry.category == previous else 1
+        previous = entry.category
+        longest = max(longest, run)
+    return longest
+
+
+def test_카테고리_연속_한도는_2일이다():
+    assert MAX_CATEGORY_RUN == 2
+
+
+@pytest.mark.parametrize("seed", range(5))
+def test_안_쓴_우선_주제가_있으면_우선_주제부터_고른다(seed):
+    pick = select_topic([], FAKE_TOPICS, FAKE_ANGLES, priority_topics=PRIORITY, rng=random.Random(seed))
+    assert (pick.category, pick.topic) in PRIORITY
+
+
+def test_우선_주제를_모두_쓰면_나머지_안_쓴_주제로_넘어간다():
+    entries = [_day_entry("네트워크", "주제5", 1), _day_entry("데이터베이스", "디비3", 2)]
+    pick = select_topic(entries, FAKE_TOPICS, FAKE_ANGLES, priority_topics=PRIORITY, rng=random.Random(0))
+    assert (pick.category, pick.topic) not in PRIORITY
+    assert pick.angle is None
+
+
+@pytest.mark.parametrize("seed", range(5))
+def test_같은_카테고리가_연속_한도에_닿으면_우선_주제가_남아_있어도_다른_카테고리를_고른다(seed):
+    entries = [_day_entry("네트워크", "주제0", 1), _day_entry("네트워크", "주제1", 2)]
+    network_only_priority = [("네트워크", "주제5")]
+    pick = select_topic(
+        entries, FAKE_TOPICS, FAKE_ANGLES, priority_topics=network_only_priority, rng=random.Random(seed)
+    )
+    assert pick.category == "데이터베이스"
+
+
+@pytest.mark.parametrize("seed", range(5))
+def test_연속_제한은_카테고리_별칭을_적용해_센다(seed):
+    entries = [
+        _day_entry("네트워크", "넷0", 1),
+        _day_entry("네트워크", "넷1", 2),
+        _legacy_entry("옛 동향", "옛주제0", 3),
+        _day_entry("아키텍처", "아키0", 4),
+    ]
+    pick = select_topic(
+        entries, ALIAS_TOPICS, FAKE_ANGLES, rng=random.Random(seed), category_aliases={"옛 동향": "아키텍처"}
+    )
+    assert pick.category == "네트워크"
+
+
+def test_다른_카테고리에_새로_쓸_조합이_없으면_연속_제한을_풀어_중복을_피한다():
+    """제한을 고집하면 이미 쓴 (주제, 관점)을 다시 골라 발행이 중단된다."""
+    exhausted_db = [
+        _day_entry("데이터베이스", f"디비{i}", 1, angle)
+        for i in range(4)
+        for angle in (None, *FAKE_ANGLES)
+    ]
+    entries = [*exhausted_db, _day_entry("네트워크", "주제0", 2), _day_entry("네트워크", "주제1", 3)]
+    pick = select_topic(entries, FAKE_TOPICS, FAKE_ANGLES, rng=random.Random(0))
+    assert pick.category == "네트워크"
+    assert build_slug(pick.topic, pick.angle) not in {e.slug for e in entries}
+
+
+def test_카테고리가_하나뿐이어도_주제를_고른다():
+    single = [("네트워크", f"주제{i}") for i in range(3)]
+    entries = [_day_entry("네트워크", "주제0", 1), _day_entry("네트워크", "주제1", 2)]
+    assert select_topic(entries, single, FAKE_ANGLES, rng=random.Random(0)).topic == "주제2"
+
+
+@pytest.mark.parametrize("seed", range(5))
+def test_우선_주제와_연속_제한을_함께_써도_모든_조합을_중복_없이_소진한다(seed):
+    rng = random.Random(seed)
+    entries: list[Entry] = []
+    total = len(FAKE_TOPICS) * (len(FAKE_ANGLES) + 1)
+    for day in range(1, total + 1):
+        entries = _publish(entries, select_topic(entries, FAKE_TOPICS, FAKE_ANGLES, priority_topics=PRIORITY, rng=rng), day)
+    assert len({e.slug for e in entries}) == total
+    assert _longest_category_run(entries[:20]) <= MAX_CATEGORY_RUN

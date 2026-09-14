@@ -9,12 +9,13 @@ import pytest
 
 from history import load_entries, parse_post_filename
 from slugs import build_slug, build_slug_index, build_title
-from topics import ALL_TOPICS, ANGLE_POOL, TOPIC_POOL
+from topics import ANGLE_POOL, KNOWN_TOPICS
 
 REPO = Path(__file__).resolve().parents[1]
 POSTS_DIR = REPO / "posts"
 HISTORY_FILE = REPO / ".topic-history.json"
-INDEX = build_slug_index(ALL_TOPICS, ANGLE_POOL)
+# 선택에서 빠진 레거시 주제로 쓴 예전 글도 식별돼야 하므로 전체 풀로 인덱스를 만든다.
+INDEX = build_slug_index(KNOWN_TOPICS, ANGLE_POOL)
 
 
 @pytest.fixture(scope="module")
@@ -23,7 +24,7 @@ def entries():
 
 
 def test_주제_풀에_중복된_주제가_없다():
-    all_topics = [topic for topics in TOPIC_POOL.values() for topic in topics]
+    all_topics = [topic for _, topic in KNOWN_TOPICS]
     assert len(all_topics) == len(set(all_topics))
 
 

@@ -102,8 +102,53 @@ def test_이미_발행된_슬러그를_고르면_중단한다(repo, monkeypatch)
     slug = build_slug(topic)
     save_entries(history, [Entry("2026-01-01", topic, slug, category, None)])
     (posts / f"2026-01-01-{slug}.md").write_text("# 기존", encoding="utf-8")
-    monkeypatch.setattr(generate, "pick_topic", lambda *a, **k: Pick(category, topic, None, []))
+    monkeypatch.setattr(generate, "select_topic", lambda *a, **k: Pick(category, topic, None, []))
     assert generate.main() == 1
+
+
+def test_main은_레거시_주제까지_포함한_인덱스로_이력을_읽는다(monkeypatch):
+    from topics import KNOWN_TOPICS
+
+    captured = {}
+
+    def fake_index(topics, angles):
+        captured["topics"] = topics
+        return build_slug_index(topics, angles)
+
+    monkeypatch.setattr(generate, "build_slug_index", fake_index)
+    monkeypatch.setattr(generate, "POSTS_DIR", generate.POSTS_DIR.parent / "__missing_posts__")
+    monkeypatch.setattr(generate, "select_topic", lambda *a, **k: (_ for _ in ()).throw(SystemExit(0)))
+    with pytest.raises(SystemExit):
+        generate.main()
+    assert captured["topics"] == KNOWN_TOPICS
+
+
+def test_main은_토스_우선_주제와_카테고리_별칭으로_주제를_고른다(monkeypatch):
+    from topics import ALL_TOPICS as SELECTABLE, CATEGORY_ALIASES, PRIORITY_TOPICS
+
+    captured = {}
+
+    def fake_select(entries, topics, angles, **kwargs):
+        captured.update(kwargs, topics=topics)
+        raise SystemExit(0)
+
+    monkeypatch.setattr(generate, "POSTS_DIR", generate.POSTS_DIR.parent / "__missing_posts__")
+    monkeypatch.setattr(generate, "select_topic", fake_select)
+    with pytest.raises(SystemExit):
+        generate.main()
+    assert captured["topics"] == SELECTABLE
+    assert captured["priority_topics"] == PRIORITY_TOPICS
+    assert captured["category_aliases"] == CATEGORY_ALIASES
+
+
+def test_프롬프트는_선택에서_빠진_분야를_언급하지_않는다():
+    prompt = build_prompt(Pick("네트워크", TOPIC, None, []))
+    assert "블록체인" not in prompt
+
+
+def test_프롬프트는_특정_기업_사례를_지어내지_않도록_안내한다():
+    prompt = build_prompt(Pick("서비스 아키텍처/실무 사례", TOPIC, None, []))
+    assert "지어내지" in prompt
 
 
 def test_API_키가_없으면_명확한_오류를_낸다(monkeypatch):

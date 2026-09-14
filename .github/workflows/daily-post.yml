@@ -48,8 +48,17 @@ jobs:
             exit 0
           fi
           git commit -m "feat: Add daily post - $(date +%Y-%m-%d)"
+          # 루프가 끝까지 실패해도 마지막 명령(sleep)이 0을 반환하므로 성공 여부를 따로 기록한다.
+          pushed=false
           for i in 1 2 3; do
-            git pull --rebase origin main && git push && break
+            if git pull --rebase origin main && git push; then
+              pushed=true
+              break
+            fi
             echo "Push failed, retrying ($i/3)..."
             sleep 5
           done
+          if [ "$pushed" != true ]; then
+            echo "Push failed after 3 attempts - 생성한 글이 저장소에 반영되지 않았습니다." >&2
+            exit 1
+          fi

@@ -1,9 +1,23 @@
 """블로그 주제 데이터. 주제 풀(카테고리별)과 재사용 시 적용할 관점(angle) 목록.
 
 이 모듈은 순수 데이터만 담는다. 선택 로직은 picker.py, 슬러그 생성은 slugs.py.
+
+- TOPIC_POOL: 새 글을 고르는 대상 (= BASE_TOPIC_POOL + PRIORITY_TOPIC_POOL).
+- PRIORITY_TOPIC_POOL: 토스 기술 블로그 기반 주제. 안 쓴 주제 중 먼저 고른다.
+- LEGACY_TOPIC_POOL: 새 글 선택에서는 빠졌지만 예전 글의 슬러그를 식별하기 위해 남긴 주제.
+  주제를 풀에서 지우면 그 주제로 쓴 예전 글이 "안 쓴 주제"나 "모르는 글"로 잡히므로
+  지우지 말고 이쪽으로 옮긴다.
+- CATEGORY_ALIASES: 카테고리 균형 계산에서 예전 카테고리 글을 새 카테고리로 합산한다.
+  발행 수 0인 새 카테고리가 따라잡을 때까지 연달아 선택되는 것을 막는다.
+
+2026-09-14: 블록체인·최신 IT 기술 동향을 레거시로 옮기고, 토스 기술 블로그(toss.tech)의
+백엔드 글을 참고해 주제를 일반화해 추가했다.
 """
 
-TOPIC_POOL: dict[str, list[str]] = {
+ARCHITECTURE_CATEGORY = "서비스 아키텍처/실무 사례"
+
+# 기존 주제. 토스 기반 주제(PRIORITY_TOPIC_POOL)와 합쳐 TOPIC_POOL이 된다.
+BASE_TOPIC_POOL: dict[str, list[str]] = {
     "Java/Spring": [
         "Spring Boot 3.x의 새로운 기능 완벽 가이드",
         "Java 21 Virtual Threads (Project Loom) 실전 적용",
@@ -154,6 +168,76 @@ TOPIC_POOL: dict[str, list[str]] = {
         "BGP와 애니캐스트 기반 글로벌 트래픽 분산",
         "HTTP 헤더 압축 HPACK과 QPACK 동작 원리",
     ],
+}
+
+# 토스 기술 블로그(toss.tech) 백엔드 글을 참고해 일반화한 주제.
+# 아직 쓰지 않은 주제 중에서는 이쪽을 먼저 고른다 (picker.select_topic).
+PRIORITY_TOPIC_POOL: dict[str, list[str]] = {
+    "Java/Spring": [
+        "Feign 클라이언트 내부 동작과 커넥션 풀·타임아웃 튜닝",
+        "Reactor Netty 메모리 누수 추적과 ByteBuf 관리",
+        "Java Native Memory Leak 진단 (NMT, jemalloc)",
+        "async-profiler로 CPU·락·할당 병목 찾기",
+        "대규모 정산 배치 설계: 재처리·멱등성·청크 전략",
+        "Kotlin DSL로 테스트·문서화 반복 코드 줄이기",
+        "Result 타입 기반 에러 핸들링 위임 패턴",
+        "Spring Boot Actuator 헬스체크 내부 구조와 커스텀 HealthIndicator",
+    ],
+    "서버/인프라": [
+        "서버 증설 없이 트래픽 폭증을 흡수하는 비동기 처리 설계",
+        "Kubernetes Probe 설계와 헬스체크 장애 전파",
+        "수천 개 서버 설정을 일관되게 관리하는 설정 체계 설계",
+        "IDC와 퍼블릭 클라우드를 묶는 하이브리드 클라우드 설계",
+        "멀티 AZ Kubernetes 클러스터로 초고가용성 구성하기",
+        "Spark on Kubernetes 운영과 리소스 격리",
+        "ZFS 기반 스토리지 성능·비용 최적화",
+    ],
+    "데이터베이스": [
+        "레거시 원장 테이블을 확장 가능한 구조로 개편하기",
+        "캐시 스탬피드와 DB 과부하 방지 전략",
+        "MySQL HA·DR 토폴로지 설계와 페일오버",
+        "커서 기반 페이지네이션과 대용량 조회 설계",
+        "Elasticsearch 샤드·힙 튜닝과 대규모 로그 처리",
+        "Apache Iceberg 데이터 레이크와 CDC 적재의 함정",
+        "StarRocks 리소스 그룹으로 분석 워크로드 격리",
+    ],
+    "네트워크": [
+        "패킷 캡처로 DB 드라이버 성능 문제 진단하기",
+        "대외기관 연계 시스템 설계: 전문 통신·타임아웃·재시도",
+        "양자내성암호(PQC)와 TLS 하이브리드 키 교환",
+        "외부 가맹점용 Open API 플랫폼 설계",
+        "실시간 시세 스트리밍의 팬아웃과 지연 관리",
+    ],
+    ARCHITECTURE_CATEGORY: [
+        "모놀리스 코어 시스템을 MSA로 단계 전환하기 (스트랭글러 패턴)",
+        "MSA에서 Enum·공통 코드 계약을 안전하게 관리하기",
+        "결제 SDK와 API 디자인 원칙",
+        "Kafka 데이터센터 이중화: 미러링과 Offset Sync",
+        "Kafka 브로커 요청 로그로 서비스 의존성 지도 그리기",
+        "Flink 상태 저장소 RocksDB 튜닝과 실시간 집계",
+        "ksqlDB 스트림 조인으로 실시간 데이터 처리하기",
+        "외부 연동 테스트를 위한 Mock 서버 설계",
+        "LLM 기반 서비스 취약점 분석 자동화",
+        "Server-driven UI 백엔드 설계",
+        "사용자 영향 없이 레거시 결제 시스템을 전면 재작성하기",
+        "대출·금융 상품 시스템의 상태 머신 설계",
+        "증권 주문이 체결되어 고객에게 전달되기까지의 처리 파이프라인",
+        "해외 브로커 연동 서비스의 장애 격리와 안정화",
+        "스크래핑 기반 외부 데이터 수집 시스템의 안정성 설계",
+        "배너·프로모션 기능을 유연하게 확장하는 도메인 설계",
+        "데이터 리니지로 대규모 실시간 파이프라인 운영하기",
+        "테이블 메타데이터와 데이터 카탈로그 관리 체계",
+        "금융 서비스 데이터 모델 설계 원칙",
+        "빠른 데이터 서빙을 위한 조회 전용 저장소 설계",
+        "대규모 MSA 환경의 Observability 설계",
+        "가치 있는 테스트를 위한 테스트 전략과 픽스처 설계",
+        "소수 사용자만 겪는 버그의 핫픽스 우선순위 판단 기준",
+        "보안 리뷰를 개발 흐름에 녹이는 프로세스 설계",
+        "신규 정산 시스템 병행 운영과 대사(Reconciliation) 전략",
+    ],
+}
+
+LEGACY_TOPIC_POOL: dict[str, list[str]] = {
     "블록체인": [
         "블록체인 핵심 개념과 백엔드 개발자 관점에서의 이해",
         "스마트 컨트랙트 Solidity 개발 입문 가이드",
@@ -233,8 +317,29 @@ ANGLE_POOL: list[str] = [
     "비용 최적화 관점",
 ]
 
-ALL_TOPICS: list[tuple[str, str]] = [
-    (category, topic)
-    for category, topics in TOPIC_POOL.items()
-    for topic in topics
-]
+CATEGORY_ALIASES: dict[str, str] = {
+    "최신 IT 기술 동향": ARCHITECTURE_CATEGORY,
+}
+
+
+def _flatten(pool: dict[str, list[str]]) -> list[tuple[str, str]]:
+    return [(category, topic) for category, topics in pool.items() for topic in topics]
+
+
+def _merge(*pools: dict[str, list[str]]) -> dict[str, list[str]]:
+    merged: dict[str, list[str]] = {}
+    for pool in pools:
+        for category, topics in pool.items():
+            merged = {**merged, category: [*merged.get(category, []), *topics]}
+    return merged
+
+
+# 새 글 선택 대상
+TOPIC_POOL: dict[str, list[str]] = _merge(BASE_TOPIC_POOL, PRIORITY_TOPIC_POOL)
+ALL_TOPICS: list[tuple[str, str]] = _flatten(TOPIC_POOL)
+# 선택 대상 중 먼저 고를 토스 기반 주제
+PRIORITY_TOPICS: list[tuple[str, str]] = _flatten(PRIORITY_TOPIC_POOL)
+# 예전 글 식별 전용
+LEGACY_TOPICS: list[tuple[str, str]] = _flatten(LEGACY_TOPIC_POOL)
+# posts/ 파일명 → 주제 역인덱스를 만들 때 쓰는 전체 목록
+KNOWN_TOPICS: list[tuple[str, str]] = [*ALL_TOPICS, *LEGACY_TOPICS]

@@ -11,9 +11,9 @@ from pathlib import Path
 import anthropic
 
 from history import Entry, load_entries, save_entries
-from picker import Pick, pick_topic
+from picker import Pick, select_topic
 from slugs import build_slug, build_slug_index, build_title
-from topics import ALL_TOPICS, ANGLE_POOL
+from topics import ALL_TOPICS, ANGLE_POOL, CATEGORY_ALIASES, KNOWN_TOPICS, PRIORITY_TOPICS
 
 HISTORY_FILE = Path(".topic-history.json")
 POSTS_DIR = Path("posts")
@@ -38,7 +38,7 @@ def build_prompt(pick: Pick) -> str:
 {prior_note}기본 설치/설정 튜토리얼을 반복하지 말고, "{pick.angle}" 관점에서만 다룰 수 있는 심화 내용·실전 사례·구체적인 수치나 트레이드오프를 중심으로 작성하세요.
 """
 
-    return f"""당신은 Java/Spring, 서버, 네트워크, 데이터베이스, 블록체인, 최신 IT 기술 동향에 정통한 시니어 백엔드 개발자입니다.
+    return f"""당신은 Java/Spring, 서버/인프라, 데이터베이스, 네트워크, 대규모 서비스 아키텍처에 정통한 시니어 백엔드 개발자입니다.
 아래 주제로 개발자 블로그 포스팅을 한국어로 작성해주세요.
 
 카테고리: {pick.category}
@@ -50,6 +50,7 @@ def build_prompt(pick: Pick) -> str:
 - 독자: 실무 경험이 있는 중급~시니어 개발자
 - 실무에서 바로 쓸 수 있는 예제 코드 포함 (해당 카테고리에 맞는 언어/도구 사용)
 - 구성: 개요 → 핵심 개념 → 실전 예제 → 주의사항 및 트레이드오프 → 정리
+- 특정 기업의 내부 사례나 수치를 사실처럼 지어내지 말고, 일반화된 설계 문제와 선택 기준으로 설명
 
 마크다운 형식으로만 응답하세요. 별도의 설명 없이 포스팅 본문만 작성하세요.
 첫 줄은 반드시 `# {display_title}` 형태의 H1 제목으로 시작하세요."""
@@ -78,11 +79,18 @@ def main() -> int:
         print(f"[스킵] 오늘 포스팅이 이미 존재합니다: {today}")
         return 0
 
-    slug_index = build_slug_index(ALL_TOPICS, ANGLE_POOL)
+    # 예전 글은 레거시 주제로도 식별해야 하므로 인덱스는 전체 풀로, 선택은 ALL_TOPICS로만 한다.
+    slug_index = build_slug_index(KNOWN_TOPICS, ANGLE_POOL)
     entries = load_entries(POSTS_DIR, HISTORY_FILE, slug_index)
     print(f"[이력] posts/ 기준 {len(entries)}편 확인")
 
-    pick = pick_topic(entries, ALL_TOPICS, ANGLE_POOL)
+    pick = select_topic(
+        entries,
+        ALL_TOPICS,
+        ANGLE_POOL,
+        priority_topics=PRIORITY_TOPICS,
+        category_aliases=CATEGORY_ALIASES,
+    )
     slug = build_slug(pick.topic, pick.angle)
     print(f"[카테고리] {pick.category}")
     print(f"[주제] {build_title(pick.topic, pick.angle)}")

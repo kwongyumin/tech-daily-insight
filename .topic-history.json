@@ -1336,6 +1336,13 @@
       "slug": "실시간-시세-스트리밍의-팬아웃과-지연-관리",
       "category": "네트워크",
       "angle": null
+    },
+    {
+      "date": "2026-09-16",
+      "title": "MySQL HA·DR 토폴로지 설계와 페일오버",
+      "slug": "mysql-hadr-토폴로지-설계와-페일오버",
+      "category": "데이터베이스",
+      "angle": null
     }
   ]
 }

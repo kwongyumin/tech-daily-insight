@@ -1364,6 +1364,13 @@
       "slug": "대외기관-연계-시스템-설계-전문-통신타임아웃재시도",
       "category": "네트워크",
       "angle": null
+    },
+    {
+      "date": "2026-09-20",
+      "title": "외부 가맹점용 Open API 플랫폼 설계",
+      "slug": "외부-가맹점용-open-api-플랫폼-설계",
+      "category": "네트워크",
+      "angle": null
     }
   ]
 }

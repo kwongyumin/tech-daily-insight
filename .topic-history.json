@@ -1371,6 +1371,13 @@
       "slug": "외부-가맹점용-open-api-플랫폼-설계",
       "category": "네트워크",
       "angle": null
+    },
+    {
+      "date": "2026-09-21",
+      "title": "캐시 스탬피드와 DB 과부하 방지 전략",
+      "slug": "캐시-스탬피드와-db-과부하-방지-전략",
+      "category": "데이터베이스",
+      "angle": null
     }
   ]
 }

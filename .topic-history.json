@@ -1385,6 +1385,13 @@
       "slug": "apache-iceberg-데이터-레이크와-cdc-적재의-함정",
       "category": "데이터베이스",
       "angle": null
+    },
+    {
+      "date": "2026-09-24",
+      "title": "양자내성암호(PQC)와 TLS 하이브리드 키 교환",
+      "slug": "양자내성암호pqc와-tls-하이브리드-키-교환",
+      "category": "네트워크",
+      "angle": null
     }
   ]
 }

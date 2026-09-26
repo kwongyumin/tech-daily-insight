@@ -1399,6 +1399,13 @@
       "slug": "커서-기반-페이지네이션과-대용량-조회-설계",
       "category": "데이터베이스",
       "angle": null
+    },
+    {
+      "date": "2026-09-26",
+      "title": "Feign 클라이언트 내부 동작과 커넥션 풀·타임아웃 튜닝",
+      "slug": "feign-클라이언트-내부-동작과-커넥션-풀타임아웃-튜닝",
+      "category": "Java/Spring",
+      "angle": null
     }
   ]
 }

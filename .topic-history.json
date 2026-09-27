@@ -1406,6 +1406,13 @@
       "slug": "feign-클라이언트-내부-동작과-커넥션-풀타임아웃-튜닝",
       "category": "Java/Spring",
       "angle": null
+    },
+    {
+      "date": "2026-09-27",
+      "title": "ksqlDB 스트림 조인으로 실시간 데이터 처리하기",
+      "slug": "ksqldb-스트림-조인으로-실시간-데이터-처리하기",
+      "category": "서비스 아키텍처/실무 사례",
+      "angle": null
     }
   ]
 }

@@ -1427,6 +1427,13 @@
       "slug": "대규모-정산-배치-설계-재처리멱등성청크-전략",
       "category": "Java/Spring",
       "angle": null
+    },
+    {
+      "date": "2026-09-30",
+      "title": "Kubernetes Probe 설계와 헬스체크 장애 전파",
+      "slug": "kubernetes-probe-설계와-헬스체크-장애-전파",
+      "category": "서버/인프라",
+      "angle": null
     }
   ]
 }

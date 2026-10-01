@@ -1434,6 +1434,13 @@
       "slug": "kubernetes-probe-설계와-헬스체크-장애-전파",
       "category": "서버/인프라",
       "angle": null
+    },
+    {
+      "date": "2026-10-01",
+      "title": "Server-driven UI 백엔드 설계",
+      "slug": "server-driven-ui-백엔드-설계",
+      "category": "서비스 아키텍처/실무 사례",
+      "angle": null
     }
   ]
 }

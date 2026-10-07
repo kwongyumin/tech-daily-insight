@@ -1455,6 +1455,13 @@
       "slug": "레거시-원장-테이블을-확장-가능한-구조로-개편하기",
       "category": "데이터베이스",
       "angle": null
+    },
+    {
+      "date": "2026-10-07",
+      "title": "async-profiler로 CPU·락·할당 병목 찾기",
+      "slug": "async-profiler로-cpu락할당-병목-찾기",
+      "category": "Java/Spring",
+      "angle": null
     }
   ]
 }

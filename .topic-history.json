@@ -1462,6 +1462,13 @@
       "slug": "async-profiler로-cpu락할당-병목-찾기",
       "category": "Java/Spring",
       "angle": null
+    },
+    {
+      "date": "2026-10-08",
+      "title": "대출·금융 상품 시스템의 상태 머신 설계",
+      "slug": "대출금융-상품-시스템의-상태-머신-설계",
+      "category": "서비스 아키텍처/실무 사례",
+      "angle": null
     }
   ]
 }

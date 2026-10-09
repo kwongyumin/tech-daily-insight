@@ -1469,6 +1469,13 @@
       "slug": "대출금융-상품-시스템의-상태-머신-설계",
       "category": "서비스 아키텍처/실무 사례",
       "angle": null
+    },
+    {
+      "date": "2026-10-09",
+      "title": "Kafka 데이터센터 이중화: 미러링과 Offset Sync",
+      "slug": "kafka-데이터센터-이중화-미러링과-offset-sync",
+      "category": "서비스 아키텍처/실무 사례",
+      "angle": null
     }
   ]
 }

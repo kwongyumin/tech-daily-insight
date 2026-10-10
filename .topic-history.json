@@ -1476,6 +1476,13 @@
       "slug": "kafka-데이터센터-이중화-미러링과-offset-sync",
       "category": "서비스 아키텍처/실무 사례",
       "angle": null
+    },
+    {
+      "date": "2026-10-10",
+      "title": "Java Native Memory Leak 진단 (NMT, jemalloc)",
+      "slug": "java-native-memory-leak-진단-nmt-jemalloc",
+      "category": "Java/Spring",
+      "angle": null
     }
   ]
 }

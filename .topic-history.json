@@ -1483,6 +1483,13 @@
       "slug": "java-native-memory-leak-진단-nmt-jemalloc",
       "category": "Java/Spring",
       "angle": null
+    },
+    {
+      "date": "2026-10-11",
+      "title": "Flink 상태 저장소 RocksDB 튜닝과 실시간 집계",
+      "slug": "flink-상태-저장소-rocksdb-튜닝과-실시간-집계",
+      "category": "서비스 아키텍처/실무 사례",
+      "angle": null
     }
   ]
 }

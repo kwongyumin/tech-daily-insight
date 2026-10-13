@@ -1497,6 +1497,13 @@
       "slug": "zfs-기반-스토리지-성능비용-최적화",
       "category": "서버/인프라",
       "angle": null
+    },
+    {
+      "date": "2026-10-13",
+      "title": "결제 SDK와 API 디자인 원칙",
+      "slug": "결제-sdk와-api-디자인-원칙",
+      "category": "서비스 아키텍처/실무 사례",
+      "angle": null
     }
   ]
 }

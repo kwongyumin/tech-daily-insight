@@ -1525,6 +1525,13 @@
       "slug": "증권-주문이-체결되어-고객에게-전달되기까지의-처리-파이프라인",
       "category": "서비스 아키텍처/실무 사례",
       "angle": null
+    },
+    {
+      "date": "2026-10-23",
+      "title": "Reactor Netty 메모리 누수 추적과 ByteBuf 관리",
+      "slug": "reactor-netty-메모리-누수-추적과-bytebuf-관리",
+      "category": "Java/Spring",
+      "angle": null
     }
   ]
 }

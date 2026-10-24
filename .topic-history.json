@@ -1532,6 +1532,13 @@
       "slug": "reactor-netty-메모리-누수-추적과-bytebuf-관리",
       "category": "Java/Spring",
       "angle": null
+    },
+    {
+      "date": "2026-10-24",
+      "title": "가치 있는 테스트를 위한 테스트 전략과 픽스처 설계",
+      "slug": "가치-있는-테스트를-위한-테스트-전략과-픽스처-설계",
+      "category": "서비스 아키텍처/실무 사례",
+      "angle": null
     }
   ]
 }

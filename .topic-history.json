@@ -1539,6 +1539,13 @@
       "slug": "가치-있는-테스트를-위한-테스트-전략과-픽스처-설계",
       "category": "서비스 아키텍처/실무 사례",
       "angle": null
+    },
+    {
+      "date": "2026-10-25",
+      "title": "Result 타입 기반 에러 핸들링 위임 패턴",
+      "slug": "result-타입-기반-에러-핸들링-위임-패턴",
+      "category": "Java/Spring",
+      "angle": null
     }
   ]
 }

@@ -1546,6 +1546,13 @@
       "slug": "result-타입-기반-에러-핸들링-위임-패턴",
       "category": "Java/Spring",
       "angle": null
+    },
+    {
+      "date": "2026-10-26",
+      "title": "Spring Boot Actuator 헬스체크 내부 구조와 커스텀 HealthIndicator",
+      "slug": "spring-boot-actuator-헬스체크-내부-구조와-커스텀-healthindicator",
+      "category": "Java/Spring",
+      "angle": null
     }
   ]
 }

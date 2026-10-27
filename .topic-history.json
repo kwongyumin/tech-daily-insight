@@ -1553,6 +1553,13 @@
       "slug": "spring-boot-actuator-헬스체크-내부-구조와-커스텀-healthindicator",
       "category": "Java/Spring",
       "angle": null
+    },
+    {
+      "date": "2026-10-27",
+      "title": "대규모 MSA 환경의 Observability 설계",
+      "slug": "대규모-msa-환경의-observability-설계",
+      "category": "서비스 아키텍처/실무 사례",
+      "angle": null
     }
   ]
 }

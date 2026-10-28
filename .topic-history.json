@@ -1560,6 +1560,13 @@
       "slug": "대규모-msa-환경의-observability-설계",
       "category": "서비스 아키텍처/실무 사례",
       "angle": null
+    },
+    {
+      "date": "2026-10-28",
+      "title": "금융 서비스 데이터 모델 설계 원칙",
+      "slug": "금융-서비스-데이터-모델-설계-원칙",
+      "category": "서비스 아키텍처/실무 사례",
+      "angle": null
     }
   ]
 }

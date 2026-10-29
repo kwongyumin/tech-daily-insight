@@ -1567,6 +1567,13 @@
       "slug": "금융-서비스-데이터-모델-설계-원칙",
       "category": "서비스 아키텍처/실무 사례",
       "angle": null
+    },
+    {
+      "date": "2026-10-29",
+      "title": "멀티 AZ Kubernetes 클러스터로 초고가용성 구성하기",
+      "slug": "멀티-az-kubernetes-클러스터로-초고가용성-구성하기",
+      "category": "서버/인프라",
+      "angle": null
     }
   ]
 }

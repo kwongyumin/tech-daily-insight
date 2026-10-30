@@ -1574,6 +1574,13 @@
       "slug": "멀티-az-kubernetes-클러스터로-초고가용성-구성하기",
       "category": "서버/인프라",
       "angle": null
+    },
+    {
+      "date": "2026-10-30",
+      "title": "StarRocks 리소스 그룹으로 분석 워크로드 격리",
+      "slug": "starrocks-리소스-그룹으로-분석-워크로드-격리",
+      "category": "데이터베이스",
+      "angle": null
     }
   ]
 }

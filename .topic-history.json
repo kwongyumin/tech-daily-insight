@@ -1581,6 +1581,13 @@
       "slug": "starrocks-리소스-그룹으로-분석-워크로드-격리",
       "category": "데이터베이스",
       "angle": null
+    },
+    {
+      "date": "2026-10-31",
+      "title": "Spark on Kubernetes 운영과 리소스 격리",
+      "slug": "spark-on-kubernetes-운영과-리소스-격리",
+      "category": "서버/인프라",
+      "angle": null
     }
   ]
 }

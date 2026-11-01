@@ -1588,6 +1588,13 @@
       "slug": "spark-on-kubernetes-운영과-리소스-격리",
       "category": "서버/인프라",
       "angle": null
+    },
+    {
+      "date": "2026-11-01",
+      "title": "Kotlin DSL로 테스트·문서화 반복 코드 줄이기",
+      "slug": "kotlin-dsl로-테스트문서화-반복-코드-줄이기",
+      "category": "Java/Spring",
+      "angle": null
     }
   ]
 }

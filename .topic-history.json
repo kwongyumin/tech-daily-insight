@@ -1595,6 +1595,13 @@
       "slug": "kotlin-dsl로-테스트문서화-반복-코드-줄이기",
       "category": "Java/Spring",
       "angle": null
+    },
+    {
+      "date": "2026-11-02",
+      "title": "MSA에서 Enum·공통 코드 계약을 안전하게 관리하기",
+      "slug": "msa에서-enum공통-코드-계약을-안전하게-관리하기",
+      "category": "서비스 아키텍처/실무 사례",
+      "angle": null
     }
   ]
 }

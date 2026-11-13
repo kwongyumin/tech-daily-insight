@@ -1672,6 +1672,13 @@
       "slug": "신규-정산-시스템-병행-운영과-대사reconciliation-전략",
       "category": "서비스 아키텍처/실무 사례",
       "angle": null
+    },
+    {
+      "date": "2026-11-13",
+      "title": "HTTP 헤더 압축 HPACK과 QPACK 동작 원리",
+      "slug": "http-헤더-압축-hpack과-qpack-동작-원리",
+      "category": "네트워크",
+      "angle": null
     }
   ]
 }

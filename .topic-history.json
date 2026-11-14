@@ -1679,6 +1679,13 @@
       "slug": "http-헤더-압축-hpack과-qpack-동작-원리",
       "category": "네트워크",
       "angle": null
+    },
+    {
+      "date": "2026-11-14",
+      "title": "Kafka 브로커 요청 로그로 서비스 의존성 지도 그리기",
+      "slug": "kafka-브로커-요청-로그로-서비스-의존성-지도-그리기",
+      "category": "서비스 아키텍처/실무 사례",
+      "angle": null
     }
   ]
 }

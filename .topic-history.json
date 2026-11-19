@@ -1714,6 +1714,13 @@
       "slug": "보안-리뷰를-개발-흐름에-녹이는-프로세스-설계",
       "category": "서비스 아키텍처/실무 사례",
       "angle": null
+    },
+    {
+      "date": "2026-11-19",
+      "title": "Change Data Capture와 Debezium 실전 적용",
+      "slug": "change-data-capture와-debezium-실전-적용",
+      "category": "데이터베이스",
+      "angle": null
     }
   ]
 }

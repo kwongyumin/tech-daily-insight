@@ -1721,6 +1721,13 @@
       "slug": "change-data-capture와-debezium-실전-적용",
       "category": "데이터베이스",
       "angle": null
+    },
+    {
+      "date": "2026-11-20",
+      "title": "TLS 1.3 핸드셰이크 개선점과 성능",
+      "slug": "tls-13-핸드셰이크-개선점과-성능",
+      "category": "네트워크",
+      "angle": null
     }
   ]
 }

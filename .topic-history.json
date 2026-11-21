@@ -1728,6 +1728,13 @@
       "slug": "tls-13-핸드셰이크-개선점과-성능",
       "category": "네트워크",
       "angle": null
+    },
+    {
+      "date": "2026-11-21",
+      "title": "Redis 메모리 최적화와 만료 정책 설계",
+      "slug": "redis-메모리-최적화와-만료-정책-설계",
+      "category": "데이터베이스",
+      "angle": null
     }
   ]
 }

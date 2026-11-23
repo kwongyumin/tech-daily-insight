@@ -1742,6 +1742,13 @@
       "slug": "데이터베이스-데드락-원인-분석과-회피-전략",
       "category": "데이터베이스",
       "angle": null
+    },
+    {
+      "date": "2026-11-23",
+      "title": "Kubernetes CSI 스토리지 프로비저닝 이해하기",
+      "slug": "kubernetes-csi-스토리지-프로비저닝-이해하기",
+      "category": "서버/인프라",
+      "angle": null
     }
   ]
 }

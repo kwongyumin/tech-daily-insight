@@ -1749,6 +1749,13 @@
       "slug": "kubernetes-csi-스토리지-프로비저닝-이해하기",
       "category": "서버/인프라",
       "angle": null
+    },
+    {
+      "date": "2026-11-24",
+      "title": "JVM 메모리 구조와 힙 덤프 분석 실전",
+      "slug": "jvm-메모리-구조와-힙-덤프-분석-실전",
+      "category": "Java/Spring",
+      "angle": null
     }
   ]
 }

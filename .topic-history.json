@@ -1756,6 +1756,13 @@
       "slug": "jvm-메모리-구조와-힙-덤프-분석-실전",
       "category": "Java/Spring",
       "angle": null
+    },
+    {
+      "date": "2026-11-25",
+      "title": "이벤트 소싱 저장소 설계와 스냅샷 전략",
+      "slug": "이벤트-소싱-저장소-설계와-스냅샷-전략",
+      "category": "데이터베이스",
+      "angle": null
     }
   ]
 }

@@ -1763,6 +1763,13 @@
       "slug": "이벤트-소싱-저장소-설계와-스냅샷-전략",
       "category": "데이터베이스",
       "angle": null
+    },
+    {
+      "date": "2026-11-26",
+      "title": "Spring Boot 애플리케이션 시작 시간 단축 기법",
+      "slug": "spring-boot-애플리케이션-시작-시간-단축-기법",
+      "category": "Java/Spring",
+      "angle": null
     }
   ]
 }

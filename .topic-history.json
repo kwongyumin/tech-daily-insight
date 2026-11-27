@@ -1770,6 +1770,13 @@
       "slug": "spring-boot-애플리케이션-시작-시간-단축-기법",
       "category": "Java/Spring",
       "angle": null
+    },
+    {
+      "date": "2026-11-27",
+      "title": "MySQL InnoDB 버퍼 풀 튜닝 전략",
+      "slug": "mysql-innodb-버퍼-풀-튜닝-전략",
+      "category": "데이터베이스",
+      "angle": null
     }
   ]
 }

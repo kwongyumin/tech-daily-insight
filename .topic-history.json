@@ -1777,6 +1777,13 @@
       "slug": "mysql-innodb-버퍼-풀-튜닝-전략",
       "category": "데이터베이스",
       "angle": null
+    },
+    {
+      "date": "2026-11-28",
+      "title": "Spring Boot 로깅 전략 Logback과 구조화 로그",
+      "slug": "spring-boot-로깅-전략-logback과-구조화-로그",
+      "category": "Java/Spring",
+      "angle": null
     }
   ]
 }
